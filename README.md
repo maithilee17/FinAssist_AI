@@ -13,25 +13,31 @@ FinAssist AI helps users explore financial reports without manually searching th
 - **Document-scoped chat** — ask questions across selected reports and revisit previous conversations.
 - **Local AI and secure access** — Ollama-based generation, JWT authentication and user-isolated document storage.
 
-## Screenshots
 
-<!-- Add the four application screenshots to docs/screenshots/ using the filenames below. -->
+## Screenshots
 
 ### Dashboard
 
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard Overview](docs/screenshots/dashboard_overview.png)
+
+![Dashboard Analytics](docs/screenshots/dashboard_analytics_view.png)
 
 ### Document Management
 
-![Document upload and indexing](docs/screenshots/documents.png)
+![File Upload Interface](docs/screenshots/file_upload_interface.png)
+
+![PDF Upload Success](docs/screenshots/pdf_upload_success.png)
 
 ### AI Assistant
 
-![Financial question answering](docs/screenshots/assistant.png)
+![AI Assistant Interface](docs/screenshots/ai_assistant_interface.png)
 
 ### Evidence and Source Citations
 
-![Answer verification and source citations](docs/screenshots/evidence.png)
+![Conversation and Evidence Verification](docs/screenshots/test_01_Conversation.png)
+
+![Multiple PDF Comparison](docs/screenshots/test_02_multiple_pdf.png)
+
 
 ## Tech Stack
 
