@@ -1,0 +1,1 @@
+{"full_suite": "timed out after 60 seconds; result not available", "representative_async": "see phase3b_async_attempt.log", "full_suite_command": "python -m pytest tests -q --junitxml=../reports/phase3b_full_tests.xml"}

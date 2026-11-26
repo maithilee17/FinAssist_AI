@@ -1,0 +1,18 @@
+{
+  "filename": "Northstar_Components_FY2024_Test_Report.pdf",
+  "sha256": "30557cd4a1b643be7a38593e183b313e0d9d9456d339d64c027c754c4d1c4033",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Northstar Components - FY2024 Financial Report\n\nFiscal year ended 31 December 2024 | Reporting currency: USD | Document identifier: NS-FY2024-TEST-01\n\nFICTIONAL, UNAUDITED TEST DATA. This report is created solely to test document retrieval, financial\ncalculations, comparison answers, and source citations. It does not represent an actual company.\n\n1. Income statement\n\nAll figures below relate to Northstar Components for the year ended 31 December 2024. Values are in US\ndollars.\n\nFINANCIAL LINE ITEM\nFY AMOUNT (USD)\n\nRevenue\n$680,000\n\nCost of goods sold (COGS)\n$425,000\n\nGross profit\n$255,000\n\nOperating expenses\n$155,000\n\nOperating income\n$100,000\n\nInterest expense\n$20,000\n\nIncome tax expense\n$24,000\n\nNet income\n$56,000\n\nIncome statement checks: Gross profit = Revenue minus Cost of goods sold = $680,000 minus $425,000 =\n$255,000. Operating income = Gross profit minus Operating expenses = $100,000. Net income = Operating income\nminus Interest expense minus Income tax expense = $56,000.\n\nFICTIONAL TEST DOCUMENT | Northstar Components | FY2024 | NS-FY2024-TEST-01\nPage 1"
+    },
+    {
+      "page_number": 2,
+      "text": "Northstar Components - FY2024 Balance Sheet and\nCash Flow\n\nDocument: NS-FY2024-TEST-01 | Reporting currency: USD | Period: FY2024\n\n2. Balance sheet\n\nBalance sheet at 31 December 2024.\n\nFINANCIAL LINE ITEM\nFY AMOUNT (USD)\n\nCurrent assets\n$275,000\n\nCurrent liabilities\n$150,000\n\nTotal assets\n$550,000\n\nTotal liabilities\n$345,000\n\nShareholders equity\n$205,000\n\nBalance sheet check: Total assets $550,000 = Total liabilities $345,000 + Shareholders equity $205,000.\n\n3. Cash flow statement\n\nCash flows for FY2024; negative amounts indicate cash used.\n\nFINANCIAL LINE ITEM\nFY AMOUNT (USD)\n\nNet cash from operating activities\n$88,000\n\nNet cash from investing activities\n($55,000)\n\nNet cash from financing activities\n($18,000)\n\nNet increase in cash\n$15,000\n\nCash at beginning of year\n$35,000\n\nCash at end of year\n$50,000\n\nCash flow check: Net cash increase = Operating cash flow $88,000 plus Investing cash flow ($55,000) plus\nFinancing cash flow ($18,000) = $15,000. Ending cash = Beginning cash $35,000 + Net increase $15,000 =\n$50,000.\n\nFICTIONAL TEST DOCUMENT | Northstar Components | FY2024 | NS-FY2024-TEST-01\nPage 2"
+    },
+    {
+      "page_number": 3,
+      "text": "Northstar Components - FY2024 Management\nCommentary\n\nDocument: NS-FY2024-TEST-01 | Reporting period: FY2024\n\n4. Management commentary\n\nNorthstar Components manufactured industrial electrical components in FY2024. The fictional business operated\nwith a distributor-focused sales model. The named risks in Section 5 are the only risks explicitly disclosed in this\nreport.\n\n5. Risks explicitly disclosed\n\n- Supplier delivery delays\n\n- Warranty claims exposure\n\n- Distributor demand variability\n\nThe report identifies the risks above as potential risks. It does not provide probabilities or quantified loss estimates\nfor these risks.\n\n6. Scope and limitations\n\nThis report relates only to Northstar Components and FY2024. Amounts in this report must not be attributed to\nanother company or another reporting year. This report does not disclose market share, stock-market valuation, or\naudited financial results.\n\nAll figures, names, business events, and risk descriptions in this document are invented for FinAssist AI testing.\n\nFICTIONAL TEST DOCUMENT | Northstar Components | FY2024 | NS-FY2024-TEST-01\nPage 3"
+    }
+  ]
+}

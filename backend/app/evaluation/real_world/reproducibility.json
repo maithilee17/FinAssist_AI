@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-11-26T02:51:26.022029+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "packages": {
+    "PyMuPDF": "1.28.2",
+    "sentence-transformers": "5.7.0",
+    "torch": "2.10.0",
+    "numpy": "2.4.6",
+    "rank-bm25": "0.2.2",
+    "SQLAlchemy": "2.1.9"
+  },
+  "artifacts": {
+    "dataset_sha256": "1e039e885530e702f13b18a5a5c80b9b9f78ae0aadb723140cd133ff10338664",
+    "source_manifest_sha256": "2c2ec78f5fbf54d7ddccff27bda33f376df3097caa122c57b97de0212173395d",
+    "runner_sha256": "e797028549fff798d48f8e065bc7eb87c68f22bcfe40fa9db0685f40681efe45"
+  },
+  "corpus": {
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "vector_backend": "evaluation exact cosine (Chroma service unavailable)",
+    "cache_directory": ".cache",
+    "documents": [
+      {
+        "document_id": "71000000-0000-0000-0000-000000000001",
+        "filename": "nvidia-2025-annual-report.pdf",
+        "pages": 181,
+        "empty_pages": 0,
+        "extracted_characters": 671755,
+        "chunks": 350,
+        "chunk_cache_hit": false,
+        "chunk_cache_fingerprint": "49eaedd2aa3efc64e88d4df7af9529c2f9e8d4ae38aa899623f3bd1546a89bc6",
+        "extraction_time_ms": 32028.107,
+        "embedding_cache": {
+          "source_sha256": "757b344ab62ba282f6e44e0702e8ce5f190d88fb23b5e0a2beaf4cb277a395cc",
+          "chunk_fingerprint": "49eaedd2aa3efc64e88d4df7af9529c2f9e8d4ae38aa899623f3bd1546a89bc6",
+          "embedding_model": "BAAI/bge-small-en-v1.5",
+          "normalized": true,
+          "cache_path": ".cache\\71000000-0000-0000-0000-000000000001.embeddings.npz",
+          "cache_hit": false,
+          "resumed_embedding_count": 0,
+          "generated_embedding_count": 350,
+          "embedding_dimension": 384,
+          "embedding_generation_time_ms": 62585.457
+        }
+      },
+      {
+        "document_id": "71000000-0000-0000-0000-000000000002",
+        "filename": "coca-cola-2024-10-k.pdf",
+        "pages": 140,
+        "empty_pages": 0,
+        "extracted_characters": 603543,
+        "chunks": 315,
+        "chunk_cache_hit": false,
+        "chunk_cache_fingerprint": "d181ac7c5d84f72a6987a9a8b25bf94531b7fc287193af2ceb4de05c76eacc57",
+        "extraction_time_ms": 20745.58,
+        "embedding_cache": {
+          "source_sha256": "96da013cf58c651ae82253c926bfe5bbd1ae63fbcdd4da03efaecf363da11963",
+          "chunk_fingerprint": "d181ac7c5d84f72a6987a9a8b25bf94531b7fc287193af2ceb4de05c76eacc57",
+          "embedding_model": "BAAI/bge-small-en-v1.5",
+          "normalized": true,
+          "cache_path": ".cache\\71000000-0000-0000-0000-000000000002.embeddings.npz",
+          "cache_hit": false,
+          "resumed_embedding_count": 0,
+          "generated_embedding_count": 315,
+          "embedding_dimension": 384,
+          "embedding_generation_time_ms": 40852.588
+        }
+      }
+    ]
+  },
+  "semantic_retrieval_backend": "exact in-memory cosine over normalized production BGE embeddings",
+  "chroma_service_exercised": false,
+  "llm_generation_enabled": false
+}

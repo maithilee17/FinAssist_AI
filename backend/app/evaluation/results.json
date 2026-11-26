@@ -1,0 +1,444 @@
+{
+  "generated_at": "2026-11-03T06:33:52.674052+00:00",
+  "runtime": {
+    "python": "3.11.2",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "dataset": {
+    "name": "finassist-phase5-retrieval-v1",
+    "sha256": "cbcb8ec2fc056299e7d3aa5b972ab076346c580a59dcd7a2af0c484afbe820c6",
+    "chunk_count": 10,
+    "question_count": 8,
+    "top_k": 3
+  },
+  "configuration": {
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25
+    },
+    "rrf_constant": 60,
+    "query_prefix": "Represent this sentence for searching relevant passages: "
+  },
+  "experiments": {
+    "semantic_only": {
+      "aggregate": {
+        "precision_at_k": 0.375,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "latency_ms": 23.17
+      },
+      "queries": [
+        {
+          "question_id": "q01",
+          "question": "What was revenue in FY2025?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000003"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 25.1337
+        },
+        {
+          "question_id": "q02",
+          "question": "What net income did Acme Corp report for FY2025?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.4742
+        },
+        {
+          "question_id": "q03",
+          "question": "Which Basel III capital adequacy ratio was disclosed?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000006",
+            "00000000-0000-0000-0000-000000000009",
+            "00000000-0000-0000-0000-000000000003"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.2288
+        },
+        {
+          "question_id": "q04",
+          "question": "What challenges did the company face while expanding internationally?",
+          "expected_strategy": "semantic",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000004",
+            "00000000-0000-0000-0000-000000000008",
+            "00000000-0000-0000-0000-000000000007"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.1993
+        },
+        {
+          "question_id": "q05",
+          "question": "Explain the factors affecting operating margin.",
+          "expected_strategy": "hybrid",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000005",
+            "00000000-0000-0000-0000-000000000008",
+            "00000000-0000-0000-0000-000000000002"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.048
+        },
+        {
+          "question_id": "q06",
+          "question": "Compare revenue between FY2024 and FY2025.",
+          "expected_strategy": "hybrid",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000003"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 24.6866
+        },
+        {
+          "question_id": "q07",
+          "question": "Summarize the company's risk outlook.",
+          "expected_strategy": "semantic",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000007",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000001"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.3951
+        },
+        {
+          "question_id": "q08",
+          "question": "How did supply chain disruption affect operations in Europe?",
+          "expected_strategy": "semantic",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000008",
+            "00000000-0000-0000-0000-000000000004",
+            "00000000-0000-0000-0000-000000000007"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.1943
+        }
+      ]
+    },
+    "hybrid_all": {
+      "aggregate": {
+        "precision_at_k": 0.375,
+        "recall_at_k": 1.0,
+        "mrr": 0.916667,
+        "ndcg_at_k": 0.9375,
+        "latency_ms": 22.994663
+      },
+      "queries": [
+        {
+          "question_id": "q01",
+          "question": "What was revenue in FY2025?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000003"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.1534
+        },
+        {
+          "question_id": "q02",
+          "question": "What net income did Acme Corp report for FY2025?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.2287
+        },
+        {
+          "question_id": "q03",
+          "question": "Which Basel III capital adequacy ratio was disclosed?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000006",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000009"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.6633
+        },
+        {
+          "question_id": "q04",
+          "question": "What challenges did the company face while expanding internationally?",
+          "expected_strategy": "semantic",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000007",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000004"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg_at_k": 0.5,
+          "latency_ms": 22.905
+        },
+        {
+          "question_id": "q05",
+          "question": "Explain the factors affecting operating margin.",
+          "expected_strategy": "hybrid",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000005",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000008"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.5109
+        },
+        {
+          "question_id": "q06",
+          "question": "Compare revenue between FY2024 and FY2025.",
+          "expected_strategy": "hybrid",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000003"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.8849
+        },
+        {
+          "question_id": "q07",
+          "question": "Summarize the company's risk outlook.",
+          "expected_strategy": "semantic",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000007",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000006"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.5872
+        },
+        {
+          "question_id": "q08",
+          "question": "How did supply chain disruption affect operations in Europe?",
+          "expected_strategy": "semantic",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000008",
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.0239
+        }
+      ]
+    },
+    "adaptive": {
+      "aggregate": {
+        "precision_at_k": 0.375,
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0,
+        "latency_ms": 14.772512
+      },
+      "queries": [
+        {
+          "question_id": "q01",
+          "question": "What was revenue in FY2025?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "keyword",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000002"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 3.842
+        },
+        {
+          "question_id": "q02",
+          "question": "What net income did Acme Corp report for FY2025?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "keyword",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.3988
+        },
+        {
+          "question_id": "q03",
+          "question": "Which Basel III capital adequacy ratio was disclosed?",
+          "expected_strategy": "keyword",
+          "selected_strategy": "keyword",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000006",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000002"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.9676
+        },
+        {
+          "question_id": "q04",
+          "question": "What challenges did the company face while expanding internationally?",
+          "expected_strategy": "semantic",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000004",
+            "00000000-0000-0000-0000-000000000008",
+            "00000000-0000-0000-0000-000000000007"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 21.4552
+        },
+        {
+          "question_id": "q05",
+          "question": "Explain the factors affecting operating margin.",
+          "expected_strategy": "hybrid",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000005",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000008"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.4257
+        },
+        {
+          "question_id": "q06",
+          "question": "Compare revenue between FY2024 and FY2025.",
+          "expected_strategy": "hybrid",
+          "selected_strategy": "hybrid",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000003"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.0063
+        },
+        {
+          "question_id": "q07",
+          "question": "Summarize the company's risk outlook.",
+          "expected_strategy": "semantic",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000007",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000001"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 22.5685
+        },
+        {
+          "question_id": "q08",
+          "question": "How did supply chain disruption affect operations in Europe?",
+          "expected_strategy": "semantic",
+          "selected_strategy": "semantic",
+          "ranked_chunk_ids": [
+            "00000000-0000-0000-0000-000000000008",
+            "00000000-0000-0000-0000-000000000004",
+            "00000000-0000-0000-0000-000000000007"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.516
+        }
+      ],
+      "strategy_selection_accuracy": 1.0
+    }
+  }
+}

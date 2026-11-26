@@ -1,0 +1,224 @@
+{
+  "scope": "Offline real-PDF/BGE/BM25 evaluation. Never writes Postgres, Chroma or chats.\n\nThe pre-fix route is replayed from the saved baseline. Retrieval uses the real\nproduction BM25 ranking and BGE query model, with an in-memory exact cosine\nadapter in place of Chroma. This is NOT live end-to-end/API/Ollama verification.\n",
+  "pdf_fixtures": [
+    {
+      "filename": "FinAssist_Sample_Financial_Report.pdf",
+      "sha256": "1dcf64db354009d802e5366ba26dae6706f7917f7671414cd756b58b1db763ed",
+      "pages": 5,
+      "chunks": 3
+    },
+    {
+      "filename": "Northstar_Components_FY2024_Test_Report.pdf",
+      "sha256": "30557cd4a1b643be7a38593e183b313e0d9d9456d339d64c027c754c4d1c4033",
+      "pages": 3,
+      "chunks": 2
+    },
+    {
+      "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+      "sha256": "71aa86afae8c5655da3f941afe66e4d80c73a916ce9ee86eb148207df1e890d2",
+      "pages": 3,
+      "chunks": 2
+    }
+  ],
+  "repetitions": 10,
+  "top_k": 5,
+  "live_services_used": false,
+  "cash_summary": {
+    "answer": "Verified cash flow summary for Riverton Industries for FY2025 [Source 1]:\nOperating activities: $135,000 (net inflow) [Source 1].\nInvesting activities: ($90,000) (net outflow) [Source 1].\nFinancing activities: ($25,000) (net outflow) [Source 1].\nNet change in cash: $20,000.00; operating + investing + financing, independently reconciled to reported cash figures [Source 1].",
+    "sources": [
+      1
+    ],
+    "inputs": [
+      {
+        "label": "operating cash flow",
+        "amount": "135000",
+        "currency": "USD",
+        "source_number": 1,
+        "chunk_id": "a499c013-9a4f-5261-b512-f1373af27774",
+        "document_id": "98fba820-e1f5-53dd-b365-5458a2015abd",
+        "user_id": "00000000-0000-0000-0000-0000000001f4",
+        "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "start": 1666,
+        "end": 1709,
+        "excerpt": "Net cash from operating activities\n$135,000"
+      },
+      {
+        "label": "investing cash flow",
+        "amount": "-90000",
+        "currency": "USD",
+        "source_number": 1,
+        "chunk_id": "a499c013-9a4f-5261-b512-f1373af27774",
+        "document_id": "98fba820-e1f5-53dd-b365-5458a2015abd",
+        "user_id": "00000000-0000-0000-0000-0000000001f4",
+        "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "start": 1711,
+        "end": 1755,
+        "excerpt": "Net cash from investing activities\n($90,000)"
+      },
+      {
+        "label": "financing cash flow",
+        "amount": "-25000",
+        "currency": "USD",
+        "source_number": 1,
+        "chunk_id": "a499c013-9a4f-5261-b512-f1373af27774",
+        "document_id": "98fba820-e1f5-53dd-b365-5458a2015abd",
+        "user_id": "00000000-0000-0000-0000-0000000001f4",
+        "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "start": 1757,
+        "end": 1801,
+        "excerpt": "Net cash from financing activities\n($25,000)"
+      },
+      {
+        "label": "beginning cash",
+        "amount": "60000",
+        "currency": "USD",
+        "source_number": 1,
+        "chunk_id": "a499c013-9a4f-5261-b512-f1373af27774",
+        "document_id": "98fba820-e1f5-53dd-b365-5458a2015abd",
+        "user_id": "00000000-0000-0000-0000-0000000001f4",
+        "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "start": 1833,
+        "end": 1866,
+        "excerpt": "Cash at beginning of year\n$60,000"
+      },
+      {
+        "label": "ending cash",
+        "amount": "80000",
+        "currency": "USD",
+        "source_number": 1,
+        "chunk_id": "a499c013-9a4f-5261-b512-f1373af27774",
+        "document_id": "98fba820-e1f5-53dd-b365-5458a2015abd",
+        "user_id": "00000000-0000-0000-0000-0000000001f4",
+        "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "start": 1868,
+        "end": 1895,
+        "excerpt": "Cash at end of year\n$80,000"
+      },
+      {
+        "label": "net cash increase",
+        "amount": "20000",
+        "currency": "USD",
+        "source_number": 1,
+        "chunk_id": "a499c013-9a4f-5261-b512-f1373af27774",
+        "document_id": "98fba820-e1f5-53dd-b365-5458a2015abd",
+        "user_id": "00000000-0000-0000-0000-0000000001f4",
+        "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "start": 1803,
+        "end": 1831,
+        "excerpt": "Net increase in cash\n$20,000"
+      }
+    ],
+    "reporting_period": "2025",
+    "discrepancy": false
+  },
+  "cash_claims": {
+    "claims": [
+      {
+        "claim": "Verified cash flow summary for Riverton Industries for FY2025 [Source 1]:\nOperating activities: $135,000 (net inflow) [Source 1].\nInvesting activities: ($90,000) (net outflow) [Source 1].\nFinancing activities: ($25,000) (net outflow) [Source 1].\nNet change in cash: $20,000.00; operating + investing + financing, independently reconciled to reported cash figures [Source 1].",
+        "status": "supported",
+        "source_chunk_ids": [
+          "a499c013-9a4f-5261-b512-f1373af27774"
+        ],
+        "cited_source_numbers": [
+          1
+        ],
+        "citation_valid": true,
+        "support_score": 1.0,
+        "reason": "All cash-flow inputs and net cash arithmetic independently recomputed"
+      }
+    ],
+    "overall_status": "verified",
+    "claims_checked": 1,
+    "supported_claims": 1,
+    "unsupported_claims": 0,
+    "partially_supported_claims": 0,
+    "claim_support_ratio": 1.0,
+    "citation_validity_score": 1.0,
+    "verification_time_ms": 78.975
+  },
+  "baseline_margin": [
+    {
+      "filename": "FinAssist_Sample_Financial_Report.pdf",
+      "answer": "Derived gross margin for FY2025: (revenue - COGS) / revenue * 100 = (850000 - 510000) / 850000 * 100 = 40.00% [Source 1].",
+      "claims": "verified"
+    },
+    {
+      "filename": "Northstar_Components_FY2024_Test_Report.pdf",
+      "answer": "Derived gross margin for FY2024: (revenue - COGS) / revenue * 100 = (680000 - 425000) / 680000 * 100 = 37.50% [Source 1].",
+      "claims": "verified"
+    },
+    {
+      "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+      "answer": "Derived gross margin for FY2025: (revenue - COGS) / revenue * 100 = (1200000 - 780000) / 1200000 * 100 = 35.00% [Source 1].",
+      "claims": "verified"
+    }
+  ],
+  "before_replayed": {
+    "strategy": "keyword",
+    "ranked_chunk_pages": [
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "refined_page": 1,
+    "commentary_survives_refinement": false
+  },
+  "retrieval_measurement": {
+    "status": "offline_real_bge_exact_cosine",
+    "torch_threads": 1,
+    "model": "BAAI/bge-small-en-v1.5",
+    "before_mean_ms": 0.8234299997639027,
+    "before_median_ms": 0.7097500001691515,
+    "after_mean_ms": 31.205519999821263,
+    "after_median_ms": 29.118899999048153,
+    "after_chunk_pages": [
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "commentary_retrieved": true,
+    "evidence_status": "sufficient"
+  }
+}

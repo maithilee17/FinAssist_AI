@@ -1,0 +1,419 @@
+{
+  "total_files": 41,
+  "total_passed": 445,
+  "total_skipped": 3,
+  "total_failed": 0,
+  "elapsed_seconds": 112.63,
+  "files": [
+    {
+      "file": "test_adaptive_retrieval.py",
+      "status": "PASSED",
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 1.718,
+      "stdout": "....                                                                     [100%]\n4 passed in 0.04s",
+      "stderr": ""
+    },
+    {
+      "file": "test_auth.py",
+      "status": "PASSED",
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.952,
+      "stdout": "............                                                             [100%]\n12 passed in 1.24s",
+      "stderr": ""
+    },
+    {
+      "file": "test_calculation_period_regression.py",
+      "status": "PASSED",
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.082,
+      "stdout": "...........                                                              [100%]\n11 passed in 0.13s",
+      "stderr": ""
+    },
+    {
+      "file": "test_chat_api.py",
+      "status": "PASSED",
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 3.11,
+      "stdout": "......                                                                   [100%]\n6 passed in 1.30s",
+      "stderr": ""
+    },
+    {
+      "file": "test_chunking.py",
+      "status": "PASSED",
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.358,
+      "stdout": "....                                                                     [100%]\n4 passed in 0.05s",
+      "stderr": ""
+    },
+    {
+      "file": "test_claim_verifier.py",
+      "status": "PASSED",
+      "passed": 7,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.575,
+      "stdout": ".......                                                                  [100%]\n7 passed in 0.12s",
+      "stderr": ""
+    },
+    {
+      "file": "test_confidence_service.py",
+      "status": "PASSED",
+      "passed": 3,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.281,
+      "stdout": "...                                                                      [100%]\n3 passed in 0.07s",
+      "stderr": ""
+    },
+    {
+      "file": "test_config.py",
+      "status": "PASSED",
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.494,
+      "stdout": "......                                                                   [100%]\n6 passed in 0.09s",
+      "stderr": ""
+    },
+    {
+      "file": "test_demo_pdf.py",
+      "status": "PASSED",
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.248,
+      "stdout": "..                                                                       [100%]\n2 passed in 0.12s",
+      "stderr": ""
+    },
+    {
+      "file": "test_documents.py",
+      "status": "PASSED",
+      "passed": 12,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 5.254,
+      "stdout": "............                                                             [100%]\n12 passed in 2.81s",
+      "stderr": ""
+    },
+    {
+      "file": "test_e2e_artifact_redaction.py",
+      "status": "PASSED",
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 1.984,
+      "stdout": "..                                                                       [100%]\n2 passed in 0.08s",
+      "stderr": ""
+    },
+    {
+      "file": "test_embedding_integration.py",
+      "status": "PASSED",
+      "passed": 0,
+      "skipped": 1,
+      "failed": 0,
+      "duration_s": 1.705,
+      "stdout": "s                                                                        [100%]\n1 skipped in 0.03s",
+      "stderr": ""
+    },
+    {
+      "file": "test_embedding_service.py",
+      "status": "PASSED",
+      "passed": 10,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 1.704,
+      "stdout": "..........                                                               [100%]\n10 passed in 0.06s",
+      "stderr": ""
+    },
+    {
+      "file": "test_evaluation_metrics.py",
+      "status": "PASSED",
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 1.677,
+      "stdout": "..                                                                       [100%]\n2 passed in 0.08s",
+      "stderr": ""
+    },
+    {
+      "file": "test_evidence_evaluation.py",
+      "status": "PASSED",
+      "passed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 1.662,
+      "stdout": ".                                                                        [100%]\n1 passed in 0.05s",
+      "stderr": ""
+    },
+    {
+      "file": "test_evidence_pipeline.py",
+      "status": "PASSED",
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 3.313,
+      "stdout": "......                                                                   [100%]\n6 passed in 0.86s",
+      "stderr": ""
+    },
+    {
+      "file": "test_evidence_verifier.py",
+      "status": "PASSED",
+      "passed": 8,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.93,
+      "stdout": "........                                                                 [100%]\n8 passed in 0.09s",
+      "stderr": ""
+    },
+    {
+      "file": "test_financial_calculation.py",
+      "status": "PASSED",
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 3.075,
+      "stdout": ".....................                                                    [100%]\n21 passed in 0.11s",
+      "stderr": ""
+    },
+    {
+      "file": "test_financial_dashboard.py",
+      "status": "PASSED",
+      "passed": 11,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.94,
+      "stdout": "...........                                                              [100%]\n11 passed in 0.69s",
+      "stderr": ""
+    },
+    {
+      "file": "test_health.py",
+      "status": "PASSED",
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.554,
+      "stdout": "....                                                                     [100%]\n4 passed in 0.06s",
+      "stderr": ""
+    },
+    {
+      "file": "test_indexing_service.py",
+      "status": "PASSED",
+      "passed": 3,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 1.907,
+      "stdout": "...                                                                      [100%]\n3 passed in 0.03s",
+      "stderr": ""
+    },
+    {
+      "file": "test_keyword_retrieval.py",
+      "status": "PASSED",
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.885,
+      "stdout": "......                                                                   [100%]\n6 passed in 0.82s",
+      "stderr": ""
+    },
+    {
+      "file": "test_llm_service.py",
+      "status": "PASSED",
+      "passed": 23,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.139,
+      "stdout": ".......................                                                  [100%]\n23 passed in 0.10s",
+      "stderr": ""
+    },
+    {
+      "file": "test_migrations.py",
+      "status": "PASSED",
+      "passed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.761,
+      "stdout": ".                                                                        [100%]\n1 passed in 0.69s",
+      "stderr": ""
+    },
+    {
+      "file": "test_models.py",
+      "status": "PASSED",
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 3.103,
+      "stdout": "..                                                                       [100%]\n2 passed in 0.32s",
+      "stderr": ""
+    },
+    {
+      "file": "test_northstar_calculation_regression.py",
+      "status": "PASSED",
+      "passed": 49,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 3.131,
+      "stdout": ".................................................                        [100%]\n49 passed in 0.43s",
+      "stderr": ""
+    },
+    {
+      "file": "test_ocr_pipeline.py",
+      "status": "PASSED",
+      "passed": 14,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 5.935,
+      "stdout": "..............                                                           [100%]\n14 passed in 3.93s",
+      "stderr": ""
+    },
+    {
+      "file": "test_pdf_processing.py",
+      "status": "PASSED",
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 1.91,
+      "stdout": "......                                                                   [100%]\n6 passed in 0.10s",
+      "stderr": ""
+    },
+    {
+      "file": "test_phase3a.py",
+      "status": "PASSED",
+      "passed": 29,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.955,
+      "stdout": ".............................                                            [100%]\n29 passed in 0.98s",
+      "stderr": ""
+    },
+    {
+      "file": "test_phase3e_security.py",
+      "status": "PASSED",
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.837,
+      "stdout": "....                                                                     [100%]\n4 passed in 0.76s",
+      "stderr": ""
+    },
+    {
+      "file": "test_phase4_integrations.py",
+      "status": "PASSED",
+      "passed": 0,
+      "skipped": 2,
+      "failed": 0,
+      "duration_s": 2.137,
+      "stdout": "ss                                                                       [100%]\n2 skipped in 0.03s",
+      "stderr": ""
+    },
+    {
+      "file": "test_query_analyzer.py",
+      "status": "PASSED",
+      "passed": 7,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.732,
+      "stdout": ".......                                                                  [100%]\n7 passed in 0.10s",
+      "stderr": ""
+    },
+    {
+      "file": "test_rag_pipeline.py",
+      "status": "PASSED",
+      "passed": 4,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 3.415,
+      "stdout": "....                                                                     [100%]\n4 passed in 0.80s",
+      "stderr": ""
+    },
+    {
+      "file": "test_rank_fusion.py",
+      "status": "PASSED",
+      "passed": 5,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.605,
+      "stdout": ".....                                                                    [100%]\n5 passed in 0.07s",
+      "stderr": ""
+    },
+    {
+      "file": "test_repeated_input_deduplication.py",
+      "status": "PASSED",
+      "passed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.78,
+      "stdout": "........................................                                 [100%]\n40 passed in 0.27s",
+      "stderr": ""
+    },
+    {
+      "file": "test_revenue_retrieval_regression.py",
+      "status": "PASSED",
+      "passed": 6,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.97,
+      "stdout": "......                                                                   [100%]\n6 passed in 0.68s",
+      "stderr": ""
+    },
+    {
+      "file": "test_six_functional_fixes.py",
+      "status": "PASSED",
+      "passed": 48,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 3.975,
+      "stdout": "................................................                         [100%]\n48 passed in 1.79s",
+      "stderr": ""
+    },
+    {
+      "file": "test_structured_financial_tables.py",
+      "status": "PASSED",
+      "passed": 59,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 4.831,
+      "stdout": "...........................................................              [100%]\n59 passed in 2.60s",
+      "stderr": ""
+    },
+    {
+      "file": "test_structured_tables_integration.py",
+      "status": "PASSED",
+      "passed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.333,
+      "stdout": ".                                                                        [100%]\n1 passed in 0.33s",
+      "stderr": ""
+    },
+    {
+      "file": "test_structured_tables_sql.py",
+      "status": "PASSED",
+      "passed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.332,
+      "stdout": ".                                                                        [100%]\n1 passed in 0.20s",
+      "stderr": ""
+    },
+    {
+      "file": "test_vector_store.py",
+      "status": "PASSED",
+      "passed": 5,
+      "skipped": 0,
+      "failed": 0,
+      "duration_s": 2.332,
+      "stdout": ".....                                                                    [100%]\n5 passed in 0.10s",
+      "stderr": ""
+    }
+  ]
+}

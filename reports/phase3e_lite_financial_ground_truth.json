@@ -1,0 +1,199 @@
+{
+  "benchmark_name": "finassist-phase3e-lite-financial-ground-truth-v1",
+  "version": "1.0.0",
+  "description": "Ground truth financial figures, scale units, accounting negative syntax, and ratio benchmarks across 5 representative document classes.",
+  "audited_on": "2026-11-26",
+  "documents": [
+    {
+      "id": "coca-cola-2024-10-k",
+      "filename": "coca-cola-2024-10-k.pdf",
+      "company": "The Coca-Cola Company",
+      "document_type": "SEC Form 10-K (Annual Report)",
+      "is_real_world": true,
+      "page_count": 140,
+      "disclosed_units": "USD in millions",
+      "unit_multiplier": 1000000,
+      "ground_truth_metrics": {
+        "FY2024": {
+          "net_operating_revenues_raw": 47061,
+          "net_operating_revenues_normalized": 47061000000.0,
+          "cost_of_goods_sold_raw": 18324,
+          "cost_of_goods_sold_normalized": 18324000000.0,
+          "gross_profit_raw": 28737,
+          "gross_profit_normalized": 28737000000.0,
+          "operating_income_raw": 9992,
+          "operating_income_normalized": 9992000000.0,
+          "gross_profit_margin_percent": 61.06,
+          "operating_margin_percent": 21.23
+        },
+        "FY2023": {
+          "net_operating_revenues_raw": 45754,
+          "net_operating_revenues_normalized": 45754000000.0,
+          "gross_profit_raw": 27233,
+          "gross_profit_normalized": 27233000000.0,
+          "operating_income_raw": 11311,
+          "operating_income_normalized": 11311000000.0,
+          "gross_profit_margin_percent": 59.52,
+          "operating_margin_percent": 24.72
+        }
+      },
+      "comparisons": {
+        "revenue_yoy_growth_percent": 2.86,
+        "gross_profit_yoy_growth_percent": 5.52,
+        "operating_income_yoy_growth_percent": -11.66,
+        "operating_margin_change_pp": -3.49
+      }
+    },
+    {
+      "id": "nvidia-2025-annual-report",
+      "filename": "nvidia-2025-annual-report.pdf",
+      "company": "NVIDIA Corporation",
+      "document_type": "Annual Report & SEC Form 10-K",
+      "is_real_world": true,
+      "page_count": 181,
+      "disclosed_units": "USD in millions",
+      "unit_multiplier": 1000000,
+      "ground_truth_metrics": {
+        "FY2025": {
+          "revenue_raw": 130497,
+          "revenue_normalized": 130497000000.0,
+          "cost_of_revenue_raw": 32639,
+          "cost_of_revenue_normalized": 32639000000.0,
+          "gross_profit_raw": 97858,
+          "gross_profit_normalized": 97858000000.0,
+          "operating_income_raw": 81453,
+          "operating_income_normalized": 81453000000.0,
+          "gross_profit_margin_percent": 74.99,
+          "operating_margin_percent": 62.42
+        },
+        "FY2024": {
+          "revenue_raw": 60922,
+          "revenue_normalized": 60922000000.0,
+          "cost_of_revenue_raw": 16621,
+          "cost_of_revenue_normalized": 16621000000.0,
+          "gross_profit_raw": 44301,
+          "gross_profit_normalized": 44301000000.0,
+          "operating_income_raw": 32972,
+          "operating_income_normalized": 32972000000.0,
+          "gross_profit_margin_percent": 72.72,
+          "operating_margin_percent": 54.12
+        }
+      },
+      "comparisons": {
+        "revenue_yoy_growth_percent": 114.20,
+        "gross_profit_yoy_growth_percent": 120.89,
+        "operating_income_yoy_growth_percent": 147.04,
+        "gross_margin_change_pp": 2.27
+      }
+    },
+    {
+      "id": "three-year-report",
+      "filename": "three_year.pdf",
+      "company": "Example Industries Inc.",
+      "document_type": "Multi-Year Financial Statement (Digital)",
+      "is_real_world": false,
+      "page_count": 1,
+      "disclosed_units": "USD exact",
+      "unit_multiplier": 1,
+      "ground_truth_metrics": {
+        "FY2025": {
+          "revenue": 1200000.0,
+          "cost_of_sales": 780000.0,
+          "gross_profit": 420000.0,
+          "operating_income": 160000.0,
+          "net_income": 91000.0,
+          "gross_profit_margin_percent": 35.00
+        },
+        "FY2024": {
+          "revenue": 950000.0,
+          "cost_of_sales": 630000.0,
+          "gross_profit": 320000.0,
+          "operating_income": 130000.0,
+          "net_income": 78000.0,
+          "gross_profit_margin_percent": 33.68
+        },
+        "FY2023": {
+          "revenue": 820000.0,
+          "cost_of_sales": 560000.0,
+          "gross_profit": 260000.0,
+          "operating_income": 100000.0,
+          "net_income": 65000.0,
+          "gross_profit_margin_percent": 31.71
+        }
+      },
+      "comparisons": {
+        "revenue_yoy_growth_percent": 26.32,
+        "gross_profit_yoy_growth_percent": 31.25,
+        "net_income_yoy_growth_percent": 16.67,
+        "gross_margin_change_pp": 1.32
+      }
+    },
+    {
+      "id": "units-multiplier-report",
+      "filename": "units.pdf",
+      "company": "Example Industries Inc.",
+      "document_type": "Explicit Scale Multiplier Table",
+      "is_real_world": false,
+      "page_count": 1,
+      "disclosed_units": "USD in thousands",
+      "unit_multiplier": 1000,
+      "ground_truth_metrics": {
+        "FY2025": {
+          "revenue_raw_table_cell": 1200.0,
+          "revenue_normalized": 1200000.0,
+          "cost_of_sales_raw_table_cell": 780.0,
+          "cost_of_sales_normalized": 780000.0,
+          "gross_profit_normalized": 420000.0,
+          "gross_profit_margin_percent": 35.00
+        }
+      }
+    },
+    {
+      "id": "cash-flow-report",
+      "filename": "cash.pdf",
+      "company": "Example Industries Inc.",
+      "document_type": "Cash Flow Statement with Accounting Negatives",
+      "is_real_world": false,
+      "page_count": 1,
+      "disclosed_units": "USD exact",
+      "unit_multiplier": 1,
+      "ground_truth_metrics": {
+        "FY2025": {
+          "operating_cash_flow": 135000.0,
+          "investing_cash_flow": -90000.0,
+          "investing_cash_flow_raw_cell": "(90,000)",
+          "financing_cash_flow": -25000.0,
+          "financing_cash_flow_raw_cell": "(25,000)",
+          "net_change_in_cash": 20000.0
+        }
+      }
+    },
+    {
+      "id": "apex-scanned-reports",
+      "filename": "Apex_Global_Technologies_FY2025_Scanned_Report.pdf",
+      "company": "Apex Global Technologies Inc.",
+      "document_type": "Scanned PDF (Synthetic 200 DPI OCR Fixture)",
+      "is_real_world": false,
+      "page_count": 1,
+      "disclosed_units": "USD exact",
+      "unit_multiplier": 1,
+      "ground_truth_metrics": {
+        "FY2025": {
+          "revenue": 1200000000.0,
+          "cost_of_sales": 780000000.0,
+          "gross_profit": 420000000.0,
+          "gross_profit_margin_percent": 35.00
+        },
+        "FY2024": {
+          "revenue": 950000000.0
+        }
+      },
+      "cash_flow_fixture": {
+        "operating_cash_flow": 135000000.0,
+        "investing_cash_flow": -90000000.0,
+        "financing_cash_flow": -25000000.0,
+        "net_change_in_cash": 20000000.0
+      }
+    }
+  ]
+}

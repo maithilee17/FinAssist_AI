@@ -1,0 +1,18 @@
+{
+  "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+  "sha256": "71aa86afae8c5655da3f941afe66e4d80c73a916ce9ee86eb148207df1e890d2",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Riverton Industries - FY2025 Financial Report\n\nFiscal year ended 31 December 2025 | Reporting currency: USD | Document identifier: RI-FY2025-TEST-01\n\nFICTIONAL, UNAUDITED TEST DATA. This report is created solely to test document retrieval, financial\ncalculations, comparison answers, and source citations. It does not represent an actual company.\n\n1. Income statement\n\nAll figures below relate to Riverton Industries for the year ended 31 December 2025. Values are in US dollars.\n\nFINANCIAL LINE ITEM\nFY AMOUNT (USD)\n\nRevenue\n$1,200,000\n\nCost of goods sold (COGS)\n$780,000\n\nGross profit\n$420,000\n\nOperating expenses\n$260,000\n\nOperating income\n$160,000\n\nInterest expense\n$30,000\n\nIncome tax expense\n$39,000\n\nNet income\n$91,000\n\nIncome statement checks: Gross profit = Revenue minus Cost of goods sold = $1,200,000 minus $780,000 =\n$420,000. Operating income = Gross profit minus Operating expenses = $160,000. Net income = Operating income\nminus Interest expense minus Income tax expense = $91,000.\n\nFICTIONAL TEST DOCUMENT | Riverton Industries | FY2025 | RI-FY2025-TEST-01\nPage 1"
+    },
+    {
+      "page_number": 2,
+      "text": "Riverton Industries - FY2025 Balance Sheet and Cash\nFlow\n\nDocument: RI-FY2025-TEST-01 | Reporting currency: USD | Period: FY2025\n\n2. Balance sheet\n\nBalance sheet at 31 December 2025.\n\nFINANCIAL LINE ITEM\nFY AMOUNT (USD)\n\nCurrent assets\n$360,000\n\nCurrent liabilities\n$240,000\n\nTotal assets\n$900,000\n\nTotal liabilities\n$540,000\n\nShareholders equity\n$360,000\n\nBalance sheet check: Total assets $900,000 = Total liabilities $540,000 + Shareholders equity $360,000.\n\n3. Cash flow statement\n\nCash flows for FY2025; negative amounts indicate cash used.\n\nFINANCIAL LINE ITEM\nFY AMOUNT (USD)\n\nNet cash from operating activities\n$135,000\n\nNet cash from investing activities\n($90,000)\n\nNet cash from financing activities\n($25,000)\n\nNet increase in cash\n$20,000\n\nCash at beginning of year\n$60,000\n\nCash at end of year\n$80,000\n\nCash flow check: Net cash increase = Operating cash flow $135,000 plus Investing cash flow ($90,000) plus\nFinancing cash flow ($25,000) = $20,000. Ending cash = Beginning cash $60,000 + Net increase $20,000 =\n$80,000.\n\nFICTIONAL TEST DOCUMENT | Riverton Industries | FY2025 | RI-FY2025-TEST-01\nPage 2"
+    },
+    {
+      "page_number": 3,
+      "text": "Riverton Industries - FY2025 Management\nCommentary\n\nDocument: RI-FY2025-TEST-01 | Reporting period: FY2025\n\n4. Management commentary\n\nRiverton Industries is a fictional manufacturer of industrial machinery. During FY2025, it reported operating income\nof $160,000 on revenue of $1,200,000. These results belong only to Riverton Industries, not to Northstar\nComponents.\n\n5. Risks explicitly disclosed\n\n- Electricity price exposure\n\n- Machine maintenance downtime\n\n- Single-source supplier dependency\n\nThe report identifies the risks above as potential risks. It does not provide probabilities or quantified loss estimates\nfor these risks.\n\n6. Scope and limitations\n\nThis report relates only to Riverton Industries and FY2025. Amounts in this report must not be attributed to\nanother company or another reporting year. This report does not disclose market share, stock-market valuation, or\naudited financial results.\n\nAll figures, names, business events, and risk descriptions in this document are invented for FinAssist AI testing.\n\nFICTIONAL TEST DOCUMENT | Riverton Industries | FY2025 | RI-FY2025-TEST-01\nPage 3"
+    }
+  ]
+}

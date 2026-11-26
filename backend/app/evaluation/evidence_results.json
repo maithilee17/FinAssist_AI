@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-11-03T14:46:26.027588+00:00",
+  "dataset": "finassist-phase6-evidence-v1",
+  "case_count": 8,
+  "notes": {
+    "llm_cost": "Not measured: candidate answers are versioned fixtures and no provider is called.",
+    "latency": "Retrieval latency is fixture materialization; Phase 5 report measures real BGE retrieval."
+  },
+  "experiments": {
+    "baseline": {
+      "evidence_sufficiency_precision": 0.625,
+      "evidence_sufficiency_recall": 1.0,
+      "claim_support_precision": 0.666667,
+      "claim_support_recall": 1.0,
+      "unsupported_claim_rate": 0.5,
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "citation_correctness": 0.6,
+      "answer_correctness": 0.375,
+      "additional_retrieval_frequency": 0.0,
+      "average_retrieval_latency_ms": 0.006137,
+      "average_verification_latency_ms": 0.0,
+      "llm_cost_per_query_usd": null,
+      "records": [
+        {
+          "case_id": "e01",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.0
+        },
+        {
+          "case_id": "e02",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.0
+        },
+        {
+          "case_id": "e03",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.0
+        },
+        {
+          "case_id": "e04",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.0
+        },
+        {
+          "case_id": "e05",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true,
+            true
+          ],
+          "verification_latency_ms": 0.0
+        },
+        {
+          "case_id": "e06",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true,
+            true
+          ],
+          "verification_latency_ms": 0.0
+        },
+        {
+          "case_id": "e07",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.0
+        },
+        {
+          "case_id": "e08",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.0
+        }
+      ]
+    },
+    "evidence_check": {
+      "evidence_sufficiency_precision": 1.0,
+      "evidence_sufficiency_recall": 1.0,
+      "claim_support_precision": 0.666667,
+      "claim_support_recall": 1.0,
+      "unsupported_claim_rate": 0.333333,
+      "abstention_precision": 1.0,
+      "abstention_recall": 1.0,
+      "citation_correctness": 0.833333,
+      "answer_correctness": 0.75,
+      "additional_retrieval_frequency": 0.375,
+      "average_retrieval_latency_ms": 0.008987,
+      "average_verification_latency_ms": 0.641688,
+      "llm_cost_per_query_usd": null,
+      "records": [
+        {
+          "case_id": "e01",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 2.7425
+        },
+        {
+          "case_id": "e02",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.2303
+        },
+        {
+          "case_id": "e03",
+          "evidence_sufficient": false,
+          "abstained": true,
+          "claim_support_predictions": [
+            false
+          ],
+          "verification_latency_ms": 0.3892
+        },
+        {
+          "case_id": "e04",
+          "evidence_sufficient": false,
+          "abstained": true,
+          "claim_support_predictions": [
+            false
+          ],
+          "verification_latency_ms": 0.4808
+        },
+        {
+          "case_id": "e05",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true,
+            true
+          ],
+          "verification_latency_ms": 0.4574
+        },
+        {
+          "case_id": "e06",
+          "evidence_sufficient": false,
+          "abstained": true,
+          "claim_support_predictions": [
+            false,
+            false
+          ],
+          "verification_latency_ms": 0.4498
+        },
+        {
+          "case_id": "e07",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.1803
+        },
+        {
+          "case_id": "e08",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.2032
+        }
+      ]
+    },
+    "claim_verification": {
+      "evidence_sufficiency_precision": 1.0,
+      "evidence_sufficiency_recall": 1.0,
+      "claim_support_precision": 1.0,
+      "claim_support_recall": 1.0,
+      "unsupported_claim_rate": 0,
+      "abstention_precision": 0.6,
+      "abstention_recall": 1.0,
+      "citation_correctness": 1,
+      "answer_correctness": 0.75,
+      "additional_retrieval_frequency": 0.375,
+      "average_retrieval_latency_ms": 0.008363,
+      "average_verification_latency_ms": 0.442575,
+      "llm_cost_per_query_usd": null,
+      "records": [
+        {
+          "case_id": "e01",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.4292
+        },
+        {
+          "case_id": "e02",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true
+          ],
+          "verification_latency_ms": 0.4934
+        },
+        {
+          "case_id": "e03",
+          "evidence_sufficient": false,
+          "abstained": true,
+          "claim_support_predictions": [
+            false
+          ],
+          "verification_latency_ms": 0.2085
+        },
+        {
+          "case_id": "e04",
+          "evidence_sufficient": false,
+          "abstained": true,
+          "claim_support_predictions": [
+            false
+          ],
+          "verification_latency_ms": 0.3939
+        },
+        {
+          "case_id": "e05",
+          "evidence_sufficient": true,
+          "abstained": false,
+          "claim_support_predictions": [
+            true,
+            true
+          ],
+          "verification_latency_ms": 0.8276
+        },
+        {
+          "case_id": "e06",
+          "evidence_sufficient": false,
+          "abstained": true,
+          "claim_support_predictions": [
+            false,
+            false
+          ],
+          "verification_latency_ms": 0.4036
+        },
+        {
+          "case_id": "e07",
+          "evidence_sufficient": true,
+          "abstained": true,
+          "claim_support_predictions": [
+            false
+          ],
+          "verification_latency_ms": 0.3821
+        },
+        {
+          "case_id": "e08",
+          "evidence_sufficient": true,
+          "abstained": true,
+          "claim_support_predictions": [
+            false
+          ],
+          "verification_latency_ms": 0.4023
+        }
+      ]
+    }
+  }
+}

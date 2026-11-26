@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T15:13:08.066709+00:00",
+  "label": "optimized",
+  "environment": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "python": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]",
+    "cpu_logical_count": 8,
+    "torch_device": "cpu",
+    "gpu_measured": false,
+    "database": "not used by cached-component benchmark",
+    "postgresql_exercised": false,
+    "chroma_exercised": false,
+    "llm_exercised": false,
+    "docker_operations_performed": false,
+    "asyncio_note": "Windows event-loop socketpair was unavailable in the managed sandbox; synchronous benchmark path used.",
+    "working_set_source": "Windows GetProcessMemoryInfo sampled every 10 ms"
+  },
+  "corpus": {
+    "documents": 2,
+    "chunks": 662,
+    "embedding_dimension": 384,
+    "source_checksums": {
+      "nvidia-2025-annual-report.pdf": "757b344ab62ba282f6e44e0702e8ce5f190d88fb23b5e0a2beaf4cb277a395cc",
+      "coca-cola-2024-10-k.pdf": "96da013cf58c651ae82253c926bfe5bbd1ae63fbcdd4da03efaecf363da11963"
+    },
+    "dataset_sha256": "1e039e885530e702f13b18a5a5c80b9b9f78ae0aadb723140cd133ff10338664",
+    "source_checksums_revalidated_this_run": false
+  },
+  "pdf_pipeline": {
+    "documents": [
+      {
+        "document_id": "71000000-0000-0000-0000-000000000001",
+        "filename": "nvidia-2025-annual-report.pdf",
+        "file_size_bytes": 49970589,
+        "page_count": 181,
+        "empty_page_count": 0,
+        "extracted_characters": 671755,
+        "chunk_count": 347,
+        "extraction": {
+          "wall_time_ms": 669.296,
+          "process_cpu_time_ms": 640.625,
+          "start_rss_bytes": 110936064,
+          "peak_rss_bytes": 167706624,
+          "peak_rss_delta_bytes": 56770560
+        },
+        "chunking": {
+          "wall_time_ms": 107.213,
+          "process_cpu_time_ms": 109.375,
+          "start_rss_bytes": 117391360,
+          "peak_rss_bytes": 120287232,
+          "peak_rss_delta_bytes": 2895872
+        }
+      },
+      {
+        "document_id": "71000000-0000-0000-0000-000000000002",
+        "filename": "coca-cola-2024-10-k.pdf",
+        "file_size_bytes": 1354777,
+        "page_count": 140,
+        "empty_page_count": 0,
+        "extracted_characters": 603543,
+        "chunk_count": 315,
+        "extraction": {
+          "wall_time_ms": 598.526,
+          "process_cpu_time_ms": 578.125,
+          "start_rss_bytes": 120287232,
+          "peak_rss_bytes": 124497920,
+          "peak_rss_delta_bytes": 4210688
+        },
+        "chunking": {
+          "wall_time_ms": 91.969,
+          "process_cpu_time_ms": 93.75,
+          "start_rss_bytes": 122347520,
+          "peak_rss_bytes": 123650048,
+          "peak_rss_delta_bytes": 1302528
+        }
+      }
+    ]
+  },
+  "embeddings": {
+    "cache_load": {
+      "wall_time_ms": 15.081,
+      "process_cpu_time_ms": 15.625,
+      "start_rss_bytes": 119279616,
+      "peak_rss_bytes": 121405440,
+      "peak_rss_delta_bytes": 2125824,
+      "embedding_count": 662,
+      "uncompressed_vector_bytes": 1016832
+    },
+    "generation": null
+  },
+  "retrieval_and_verification": {
+    "mode": "cached-component microbenchmarks; no fresh query embedding",
+    "vector_backend": "vectorized exact in-memory cosine substitute",
+    "chroma_exercised": false,
+    "bm25": {
+      "cold_index_and_query_ms": 744.829,
+      "warm_query_average_ms": 1.541,
+      "warm_query_samples": 16,
+      "index_build_count": 1,
+      "scope": "production index builder and BM25 scoring; database query excluded"
+    },
+    "exact_cosine_search": {
+      "average_ms": 0.862,
+      "samples": 16,
+      "query_vectors": "normalized cached production BGE document vectors used only to isolate search math",
+      "rankings": [
+        [
+          "a4701ae0-3c81-5d65-aef4-ef85947cd9e1",
+          "e58cee8b-2203-540b-b1a6-abde6b3b8fea",
+          "2a84fec3-018d-5154-bc5d-21d8122f70c9",
+          "d045ad26-58dd-5515-85f2-93b94349a2c8",
+          "641edcc6-f303-592a-80df-0fa19e6d6117"
+        ],
+        [
+          "1e45ff02-f9be-5a40-aa31-bbb5f641eaad",
+          "62efb0f3-5d2a-5909-8146-a5237c29725b",
+          "25063568-2012-5833-89ee-2d4aad67fc38",
+          "3a43e5d9-841f-5102-992d-4c8f72f420d3",
+          "06d034c1-007a-59fc-82a5-93ecee95e2c1"
+        ],
+        [
+          "88038a51-1d3a-533d-a959-68ce82d2e20e",
+          "d26fe599-ad87-5b61-b06b-6adfd4111e6d",
+          "bd342f71-ac56-5052-871a-124978a4b6b8",
+          "badbb90f-a489-559a-ab57-4dc3a8e3d61f",
+          "043635f2-06f8-5ce7-87f2-946800f0d8b0"
+        ],
+        [
+          "fd1a5fbb-f292-581d-b6d3-83017c09d95d",
+          "3ebd43e3-c4d6-5f21-a275-7fd3636df034",
+          "c097d6a5-035d-59be-9e1c-1cd3dd0eede9",
+          "766f3990-f86c-51a4-8b79-1012e369d1a9",
+          "4a7ce39b-2d23-501a-8a4d-fe266036ae6b"
+        ],
+        [
+          "c35cf19a-5aba-5858-a6a3-fc63668043f4",
+          "56fa54fc-061c-54bb-a34f-83fa956f69cc",
+          "c6e54044-3836-5aa7-b790-56e0321ec49f",
+          "e544fb29-9e1e-57e7-9189-3b3e62bd1bcc",
+          "9ef218b8-dd9e-5e4a-b1c1-07cb80f08918"
+        ],
+        [
+          "4fe9023b-efe3-5894-88a2-850f5dbcbbeb",
+          "75e290f6-e109-585f-8de8-1da27a914b92",
+          "cbbb4f1b-65cd-5842-b580-1921e0923b58",
+          "4bb5c649-1c43-52c0-b54d-1fde9b6474c4",
+          "21abd791-5ec1-55d8-883a-08cb0d30559d"
+        ],
+        [
+          "780228a3-d413-517e-8717-ab881d32c584",
+          "76fc4fee-e2bb-5aad-afed-d520bed9ee89",
+          "456f84b5-ff2e-545e-8d0b-dfb26733fc7e",
+          "cde4e231-8fcb-58eb-bdf3-0c208b1a231e",
+          "4692ef8d-e968-5626-8a94-60c62fb443ca"
+        ],
+        [
+          "af65e7e8-206e-5cd7-836a-fd3e084ed8e7",
+          "88f607b1-061f-5758-a7f7-442e14d96803",
+          "a09f1951-f774-5062-b755-61fa2df9859d",
+          "32a7691d-f1b4-5871-ba1b-c6bca244249c",
+          "68a3dece-354d-54d2-8257-86209b969229"
+        ],
+        [
+          "8badaecd-677f-58d6-a38a-08cc95939065",
+          "2437a1a2-ad3d-511c-a0e3-ac586bdf26e0",
+          "9930f478-07ac-5e25-a9bb-c6fa5420adff",
+          "6a9a0f16-1a9d-5983-93ec-a0b9b6b11023",
+          "5b3cd75f-c29e-56ad-b9cb-5d8cbcef6d11"
+        ],
+        [
+          "21ab11d5-8132-5ba5-87b1-4e501b342ce1",
+          "e73df15c-0521-5091-aa73-f3334686abec",
+          "5ea7e7de-fdfb-531b-8ecf-13a3ea81942f",
+          "92c923f9-f56f-53c7-8fa2-cecd863a361c",
+          "c100a4d0-15d8-5ea5-9145-5e98fab3f5cd"
+        ],
+        [
+          "ace83ef1-79d7-51eb-8778-9333e0bba4c8",
+          "06a01458-ee61-5460-a396-f536cd4ef489",
+          "21d73feb-fbc1-591f-934a-8bc9f39e7678",
+          "071306aa-d863-57f0-a397-d8b006b2cb90",
+          "37c6424f-7cbb-5535-8d79-1740291b162f"
+        ],
+        [
+          "9c9e7608-52b6-51fa-8278-22f9ccfa760f",
+          "eb5283fd-b814-5cf2-8f73-6992f37f862e",
+          "67e2ac4c-a293-5c7f-af9b-5e01fb505453",
+          "9e022385-61c7-589e-8b33-d3637ec9ea52",
+          "9294a241-4af6-5c3d-bf9a-fdd12e753996"
+        ],
+        [
+          "efd200e9-66d0-57f9-961b-873fe2cfaafc",
+          "398f6fe2-33d8-5f81-bd80-bcdc5ec0d5e1",
+          "3e2cae74-cd1d-599b-8324-450e5831ffa6",
+          "e1f4537d-2606-573d-8452-f9af508afc27",
+          "4dc7064a-562d-5a5d-a2d3-58ba4ca2c909"
+        ],
+        [
+          "d230e6ce-9c88-5518-990d-20faefc04bf3",
+          "9b848d70-03f0-5324-b6e4-9c18e05ff3f1",
+          "0f13dd36-715c-53f3-8bdf-4d3f7e9e6cd2",
+          "5de2b722-35a5-5067-a9d8-fa0240545005",
+          "b1429b5d-a811-543e-a47c-f433a76ae0e0"
+        ],
+        [
+          "aadab841-b03b-560a-9eb3-8cd482e2ab8b",
+          "6a9a0f16-1a9d-5983-93ec-a0b9b6b11023",
+          "e95b8498-fd6a-515a-90ee-64dd9a86a803",
+          "ad81e565-2da5-5330-afdb-52e7e34c1dfd",
+          "0f8272d9-183c-5a5f-8e84-7d5ebe5f00a5"
+        ],
+        [
+          "86637255-cb31-5fed-b341-a6f25e8c7ae4",
+          "fe9baef8-e2ed-582f-88d3-0ff71076fdee",
+          "f02d3d42-b7c5-5e3a-a280-43e4436bdfe1",
+          "6854b20a-a104-5e22-bb7a-9d63083c73cf",
+          "72b5253d-037b-565f-aa8e-5faa57d3a387"
+        ]
+      ]
+    },
+    "evidence_verification": {
+      "average_ms": 12.96,
+      "samples": 16
+    },
+    "claim_verification": {
+      "average_ms": 2.629,
+      "samples": 8
+    },
+    "phase_71_pipeline_reference": {
+      "source": "backend\\app\\evaluation\\real_world\\results.json",
+      "case_count": 16,
+      "average_retrieval_latency_ms": 639.044,
+      "average_verification_latency_ms": 27.509,
+      "average_end_to_end_latency_ms_without_llm": 668.17,
+      "citation_page_correctness": 0.7
+    }
+  },
+  "pdf_reliability": [
+    {
+      "name": "corrupted_pdf",
+      "status": "passed",
+      "expected": "safe InvalidPdfError",
+      "observed": "The PDF is corrupted or cannot be read",
+      "latency_ms": 8.147
+    },
+    {
+      "name": "unsupported_file_content",
+      "status": "passed",
+      "expected": "safe InvalidPdfError",
+      "observed": "The uploaded file does not contain a valid PDF header",
+      "latency_ms": 1.18
+    },
+    {
+      "name": "empty_text_pdf",
+      "status": "passed",
+      "expected": "empty page preserved",
+      "observed": "one page preserved with empty extracted text",
+      "latency_ms": 14.076
+    },
+    {
+      "name": "financial_punctuation",
+      "status": "passed",
+      "expected": "values and symbols preserved",
+      "observed": "Revenue: $1,234.56 | Margin: -4.2% | FY2025",
+      "latency_ms": 10.921
+    },
+    {
+      "name": "multi_page_pdf",
+      "status": "passed",
+      "expected": "page order preserved",
+      "observed": "page numbers 1, 2, 3 preserved",
+      "latency_ms": 10.444
+    },
+    {
+      "name": "retry_after_failure",
+      "status": "passed",
+      "expected": "retry succeeds after source correction",
+      "observed": "initial failure followed by successful reprocessing",
+      "latency_ms": 15.841
+    },
+    {
+      "name": "large_real_pdf",
+      "status": "passed",
+      "expected": "official large PDF validates",
+      "observed": "49970589 bytes, 181 pages",
+      "latency_ms": 5.412
+    }
+  ],
+  "limitations": [
+    "Live PostgreSQL was not exercised; the cached-component benchmark excluded database query timing.",
+    "Live ChromaDB was unavailable; semantic search math uses an explicitly labelled exact in-memory cosine substitute.",
+    "No LLM provider was configured or called, so generation latency and answer-generation reliability are unavailable.",
+    "Fresh full-corpus BGE generation did not complete during the bounded CPU run; throughput is unavailable.",
+    "GPU measurements are unavailable because torch reported CPU-only execution for this run.",
+    "OCR is not implemented; image-only PDFs can produce empty extracted text."
+  ]
+}

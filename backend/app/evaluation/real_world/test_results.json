@@ -1,0 +1,24 @@
+{
+  "executed_on": "2026-11-06",
+  "backend": {
+    "command": ".\\.venv\\Scripts\\pytest.exe -q -rs",
+    "passed": 99,
+    "failed": 0,
+    "skipped": 2,
+    "duration_seconds": 7.09,
+    "skip_reasons": [
+      "Set RUN_CHROMA_INTEGRATION=1 with ChromaDB running",
+      "Set RUN_LLM_INTEGRATION=1 with a configured provider"
+    ]
+  },
+  "static_checks": {
+    "command": ".\\.venv\\Scripts\\ruff.exe check app tests",
+    "result": "passed",
+    "format_check": "76 files formatted"
+  },
+  "evaluation": {
+    "command": ".\\.venv\\Scripts\\python.exe -m app.evaluation.real_world.runner",
+    "cases_completed": 16,
+    "result": "passed"
+  }
+}

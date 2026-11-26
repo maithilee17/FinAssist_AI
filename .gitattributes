@@ -1,0 +1,2 @@
+# Keep Bash line endings valid on Windows checkouts.
+*.sh text eol=lf

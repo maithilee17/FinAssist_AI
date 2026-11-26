@@ -1,0 +1,67 @@
+{
+  "source": "hand-authored fixture constants; no model-generated values",
+  "income": [
+    [
+      "Revenue",
+      "1,200,000",
+      "950,000",
+      "820,000"
+    ],
+    [
+      "Cost of Sales",
+      "780,000",
+      "630,000",
+      "560,000"
+    ],
+    [
+      "Gross Profit",
+      "420,000",
+      "320,000",
+      "260,000"
+    ],
+    [
+      "Net Income",
+      "91,000",
+      "78,000",
+      "65,000"
+    ],
+    [
+      "Operating Income",
+      "160,000",
+      "130,000",
+      "100,000"
+    ]
+  ],
+  "balance": [
+    [
+      "Total Assets",
+      "900,000",
+      "800,000"
+    ],
+    [
+      "Total Liabilities",
+      "540,000",
+      "440,000"
+    ]
+  ],
+  "cash": [
+    [
+      "Operating cash flow",
+      "135,000"
+    ],
+    [
+      "Investing cash flow",
+      "(90,000)"
+    ],
+    [
+      "Financing cash flow",
+      "(25,000)"
+    ]
+  ],
+  "gross_margin_2025": "35.00",
+  "net_margin_2024": "8.21",
+  "revenue_growth_2024_to_2025": "26.32",
+  "operating_margin_2025": "13.33",
+  "debt_to_assets_2025": "60.00",
+  "net_cash_change_2025": "20000"
+}

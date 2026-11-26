@@ -1,0 +1,434 @@
+{
+  "scope": "Read-only PDF/BGE/BM25/RRF evaluation. No live database, Chroma or Ollama writes.\n\nRun from backend: python -m app.evaluation.phase3b_table_eval --pdf-dir PATH --output PATH\nUses cached BGE offline; actual vector indexing and complete model answers are not simulated as live.\n",
+  "live_services_used": false,
+  "documents": [
+    {
+      "filename": "three_year.pdf",
+      "pages": 1,
+      "chunks": 2,
+      "baseline_chunks": 1,
+      "page_text_unchanged": true,
+      "tables": 1,
+      "mean_extraction_ms": 19.019979995209724,
+      "baseline_extraction_ms": 2.849459999924875,
+      "mean_chunking_ms": 0.47808000817894936,
+      "baseline_chunking_ms": 0.08350000061909668,
+      "table_timings_ms": [
+        {
+          "detection_ms": 11.284,
+          "normalization_ms": 3.23
+        }
+      ],
+      "unchanged_document_chunk_ids_preserved": null
+    },
+    {
+      "filename": "FinAssist_Sample_Financial_Report.pdf",
+      "pages": 5,
+      "chunks": 9,
+      "baseline_chunks": 3,
+      "page_text_unchanged": true,
+      "tables": 7,
+      "mean_extraction_ms": 134.92550001246855,
+      "baseline_extraction_ms": 4.00950000002922,
+      "mean_chunking_ms": 1.9235999905504286,
+      "baseline_chunking_ms": 0.5541400001675356,
+      "table_timings_ms": [
+        {
+          "detection_ms": 7.915,
+          "normalization_ms": 1.577
+        },
+        {
+          "detection_ms": 34.011,
+          "normalization_ms": 10.994
+        },
+        {
+          "detection_ms": 5.195,
+          "normalization_ms": 1.146
+        },
+        {
+          "detection_ms": 43.535,
+          "normalization_ms": 12.194
+        },
+        {
+          "detection_ms": 4.333,
+          "normalization_ms": 0.406
+        }
+      ],
+      "unchanged_document_chunk_ids_preserved": null
+    },
+    {
+      "filename": "Northstar_Components_FY2024_Test_Report.pdf",
+      "pages": 3,
+      "chunks": 2,
+      "baseline_chunks": 2,
+      "page_text_unchanged": true,
+      "tables": 0,
+      "mean_extraction_ms": 54.88575998460874,
+      "baseline_extraction_ms": 2.943579999919166,
+      "mean_chunking_ms": 0.3024000092409551,
+      "baseline_chunking_ms": 0.37682000001950655,
+      "table_timings_ms": [
+        {
+          "detection_ms": 13.346,
+          "normalization_ms": 1.653
+        },
+        {
+          "detection_ms": 14.312,
+          "normalization_ms": 1.738
+        },
+        {
+          "detection_ms": 12.423,
+          "normalization_ms": 1.574
+        }
+      ],
+      "unchanged_document_chunk_ids_preserved": true
+    },
+    {
+      "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+      "pages": 3,
+      "chunks": 2,
+      "baseline_chunks": 2,
+      "page_text_unchanged": true,
+      "tables": 0,
+      "mean_extraction_ms": 52.69457999384031,
+      "baseline_extraction_ms": 3.250299999854178,
+      "mean_chunking_ms": 0.3082999959588051,
+      "baseline_chunking_ms": 0.45561999977508094,
+      "table_timings_ms": [
+        {
+          "detection_ms": 14.533,
+          "normalization_ms": 1.809
+        },
+        {
+          "detection_ms": 15.477,
+          "normalization_ms": 1.83
+        },
+        {
+          "detection_ms": 13.579,
+          "normalization_ms": 1.647
+        }
+      ],
+      "unchanged_document_chunk_ids_preserved": true
+    }
+  ],
+  "model": "BAAI/bge-small-en-v1.5",
+  "embedding_cold_including_model_load_ms": 10363.378599984571,
+  "embedding_legacy_corpus_warm_ms": 2191.4019000250846,
+  "embedding_table_corpus_warm_ms": 4236.769400013145,
+  "max_rendered_table_bge_tokens": 143,
+  "cases": [
+    {
+      "filename": "three_year.pdf",
+      "question": "Calculate gross profit margin in FY2025",
+      "expected": "35.00%",
+      "pass": true,
+      "answer": "Verified table financial analysis (normalized amounts in base currency units):\nExample Industries, FY2025, annual, consolidated, reported: revenue = 1,200,000.00 USD; cost of sales = 780,000.00 USD [Source 1].\ngross profit margin: 420000 / 1200000 * 100 = 35.00% [Source 1].",
+      "evidence_status": "sufficient",
+      "claim_status": "verified",
+      "mean_retrieval_ms": 23.21243998594582,
+      "legacy_text_replay_mean_retrieval_ms": 23.962899995967746,
+      "legacy_calculation_answer": null,
+      "calculation_ms": 7.226100016850978,
+      "chunks": [
+        {
+          "chunk_id": "f6bf0245-da28-59b6-9d40-2b7df36c03f3",
+          "document_id": "5511603d-60df-5dda-ae27-437ed6a04e9f",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "chunk_id": "885133a7-7354-59bf-b054-f724dfc378c5",
+          "document_id": "5511603d-60df-5dda-ae27-437ed6a04e9f",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "three_year.pdf",
+      "question": "Calculate revenue growth from FY2024 to FY2025",
+      "expected": "26.32%",
+      "pass": true,
+      "answer": "Verified table financial analysis (normalized amounts in base currency units):\nExample Industries, FY2024, annual, consolidated, reported: revenue = 950,000.00 USD [Source 1].\nExample Industries, FY2025, annual, consolidated, reported: revenue = 1,200,000.00 USD [Source 1].\nRevenue growth FY2024 to FY2025: (1200000 - 950000) / 950000 * 100 = 26.32% [Source 1].",
+      "evidence_status": "sufficient",
+      "claim_status": "verified",
+      "mean_retrieval_ms": 23.99081999901682,
+      "legacy_text_replay_mean_retrieval_ms": 23.588519997429103,
+      "legacy_calculation_answer": null,
+      "calculation_ms": 1.0491000139154494,
+      "chunks": [
+        {
+          "chunk_id": "f6bf0245-da28-59b6-9d40-2b7df36c03f3",
+          "document_id": "5511603d-60df-5dda-ae27-437ed6a04e9f",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "chunk_id": "885133a7-7354-59bf-b054-f724dfc378c5",
+          "document_id": "5511603d-60df-5dda-ae27-437ed6a04e9f",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "FinAssist_Sample_Financial_Report.pdf",
+      "question": "Calculate gross profit margin in FY2025",
+      "expected": "40.00%",
+      "pass": true,
+      "answer": "Verified table financial analysis (normalized amounts in base currency units):\nNORTHSTAR COMPONENTS, FY2025, annual, unspecified, reported: revenue = 850,000.00 USD; cost of sales = 510,000.00 USD [Source 3].\ngross profit margin: 340000 / 850000 * 100 = 40.00% [Source 3].",
+      "evidence_status": "sufficient",
+      "claim_status": "verified",
+      "mean_retrieval_ms": 22.421820007730275,
+      "legacy_text_replay_mean_retrieval_ms": 22.319719998631626,
+      "legacy_calculation_answer": "Derived gross margin for FY2025: (revenue - COGS) / revenue * 100 = (850000 - 510000) / 850000 * 100 = 40.00% [Source 1].",
+      "calculation_ms": 0.9415000095032156,
+      "chunks": [
+        {
+          "chunk_id": "40875731-135c-5258-bda8-c5d6ebf073c6",
+          "document_id": "323bc66d-ee9b-5c8c-8d08-8d79f1577622",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "chunk_id": "b45b8a1f-be11-5530-81e8-e5bc0e0e9252",
+          "document_id": "323bc66d-ee9b-5c8c-8d08-8d79f1577622",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "chunk_id": "c1e6d061-4e37-5fa9-8ba0-bee99580d619",
+          "document_id": "323bc66d-ee9b-5c8c-8d08-8d79f1577622",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "chunk_id": "a165f331-60f3-5c54-a06c-0d06f94cc0b5",
+          "document_id": "323bc66d-ee9b-5c8c-8d08-8d79f1577622",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "chunk_id": "0e27aa91-9754-5cb9-8223-226f0f1f981c",
+          "document_id": "323bc66d-ee9b-5c8c-8d08-8d79f1577622",
+          "pages": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Northstar_Components_FY2024_Test_Report.pdf",
+      "question": "Calculate gross profit margin in FY2024",
+      "expected": "37.50%",
+      "pass": true,
+      "answer": "Derived gross margin for FY2024: (revenue - COGS) / revenue * 100 = (680000 - 425000) / 680000 * 100 = 37.50% [Source 1].",
+      "evidence_status": "sufficient",
+      "claim_status": "verified",
+      "mean_retrieval_ms": 21.72315997304395,
+      "legacy_text_replay_mean_retrieval_ms": 22.327480011153966,
+      "legacy_calculation_answer": "Derived gross margin for FY2024: (revenue - COGS) / revenue * 100 = (680000 - 425000) / 680000 * 100 = 37.50% [Source 1].",
+      "calculation_ms": 67.00370000908151,
+      "chunks": [
+        {
+          "chunk_id": "ced8f528-c6e7-5cbb-869a-4816f01a817e",
+          "document_id": "43d6442d-29c3-5fde-8011-e393ede504ac",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "chunk_id": "90b01a4b-a586-5f5d-8aac-cb8171d23db7",
+          "document_id": "43d6442d-29c3-5fde-8011-e393ede504ac",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+      "question": "Calculate gross profit margin in FY2025",
+      "expected": "35.00%",
+      "pass": true,
+      "answer": "Derived gross margin for FY2025: (revenue - COGS) / revenue * 100 = (1200000 - 780000) / 1200000 * 100 = 35.00% [Source 1].",
+      "evidence_status": "sufficient",
+      "claim_status": "verified",
+      "mean_retrieval_ms": 21.40118001261726,
+      "legacy_text_replay_mean_retrieval_ms": 21.793379995506257,
+      "legacy_calculation_answer": "Derived gross margin for FY2025: (revenue - COGS) / revenue * 100 = (1200000 - 780000) / 1200000 * 100 = 35.00% [Source 1].",
+      "calculation_ms": 62.61670001549646,
+      "chunks": [
+        {
+          "chunk_id": "8383341d-985c-5d3e-ad9e-b4da1e24bd77",
+          "document_id": "33536463-8959-5ef1-bcca-ede625ac2b4c",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "chunk_id": "92637978-e0cf-531f-940a-a8d34b9684bd",
+          "document_id": "33536463-8959-5ef1-bcca-ede625ac2b4c",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Northstar_Components_FY2024_Test_Report.pdf",
+      "question": "What products did Northstar Components manufacture in FY2024 and what was its sales model?",
+      "expected": "distributor-focused sales model",
+      "pass": true,
+      "answer": null,
+      "evidence_status": "sufficient",
+      "claim_status": null,
+      "mean_retrieval_ms": 24.296639987733215,
+      "legacy_text_replay_mean_retrieval_ms": 24.654780002310872,
+      "legacy_calculation_answer": null,
+      "calculation_ms": 0.09240000508725643,
+      "chunks": [
+        {
+          "chunk_id": "90b01a4b-a586-5f5d-8aac-cb8171d23db7",
+          "document_id": "43d6442d-29c3-5fde-8011-e393ede504ac",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "chunk_id": "ced8f528-c6e7-5cbb-869a-4816f01a817e",
+          "document_id": "43d6442d-29c3-5fde-8011-e393ede504ac",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+      "question": "Summarize the cash flows for Riverton Industries in FY2025 including operating, investing, and financing activities and net change in cash.",
+      "expected": "Verified cash flow summary",
+      "pass": true,
+      "answer": "Verified cash flow summary for Riverton Industries for FY2025 [Source 1]:\nOperating activities: $135,000 (net inflow) [Source 1].\nInvesting activities: ($90,000) (net outflow) [Source 1].\nFinancing activities: ($25,000) (net outflow) [Source 1].\nNet change in cash: $20,000.00; operating + investing + financing, independently reconciled to reported cash figures [Source 1].",
+      "evidence_status": "sufficient",
+      "claim_status": "verified",
+      "mean_retrieval_ms": 28.28985998639837,
+      "legacy_text_replay_mean_retrieval_ms": 28.38806000072509,
+      "legacy_calculation_answer": "Verified cash flow summary for Riverton Industries for FY2025 [Source 1]:\nOperating activities: $135,000 (net inflow) [Source 1].\nInvesting activities: ($90,000) (net outflow) [Source 1].\nFinancing activities: ($25,000) (net outflow) [Source 1].\nNet change in cash: $20,000.00; operating + investing + financing, independently reconciled to reported cash figures [Source 1].",
+      "calculation_ms": 62.75620002998039,
+      "chunks": [
+        {
+          "chunk_id": "8383341d-985c-5d3e-ad9e-b4da1e24bd77",
+          "document_id": "33536463-8959-5ef1-bcca-ede625ac2b4c",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "chunk_id": "92637978-e0cf-531f-940a-a8d34b9684bd",
+          "document_id": "33536463-8959-5ef1-bcca-ede625ac2b4c",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+      "question": "What was inventory in FY2025?",
+      "expected": null,
+      "pass": true,
+      "answer": null,
+      "evidence_status": "weak",
+      "claim_status": null,
+      "mean_retrieval_ms": 22.058360010851175,
+      "legacy_text_replay_mean_retrieval_ms": 22.023419989272952,
+      "legacy_calculation_answer": null,
+      "calculation_ms": 0.06940000457689166,
+      "chunks": [
+        {
+          "chunk_id": "8383341d-985c-5d3e-ad9e-b4da1e24bd77",
+          "document_id": "33536463-8959-5ef1-bcca-ede625ac2b4c",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "chunk_id": "92637978-e0cf-531f-940a-a8d34b9684bd",
+          "document_id": "33536463-8959-5ef1-bcca-ede625ac2b4c",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "three_year.pdf",
+      "question": "Calculate gross profit margin in FY2022",
+      "expected": null,
+      "pass": true,
+      "answer": null,
+      "evidence_status": "weak",
+      "claim_status": null,
+      "mean_retrieval_ms": 22.7164400042966,
+      "legacy_text_replay_mean_retrieval_ms": 22.692140005528927,
+      "legacy_calculation_answer": null,
+      "calculation_ms": 0.47389999963343143,
+      "chunks": [
+        {
+          "chunk_id": "f6bf0245-da28-59b6-9d40-2b7df36c03f3",
+          "document_id": "5511603d-60df-5dda-ae27-437ed6a04e9f",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "chunk_id": "885133a7-7354-59bf-b054-f724dfc378c5",
+          "document_id": "5511603d-60df-5dda-ae27-437ed6a04e9f",
+          "pages": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_document_factual_claim_check": {
+    "scope": "complete selected offline corpus; hand-authored expected claims, not LLM output",
+    "question": "Compare revenue and net income for Northstar Components and Riverton Industries in FY2025.",
+    "expected_claims": "Northstar Components FY2025 revenue was USD 850,000 and net income was USD 96,000 [Source 2].\nRiverton Industries FY2025 revenue was USD 1,200,000 and net income was USD 91,000 [Source 10].",
+    "evidence_status": "sufficient",
+    "claim_status": "verified",
+    "calculator_did_not_omit_legacy_issuer": true
+  },
+  "not_measured": [
+    "Chroma indexing",
+    "PostgreSQL persistence",
+    "complete Ollama answers",
+    "GUI",
+    "restart persistence"
+  ]
+}

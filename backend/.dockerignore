@@ -1,0 +1,17 @@
+.venv/
+.model-cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite*
+*.log
+uploads/*
+!uploads/.gitkeep
+tests/
+app/evaluation/**/.cache/
+app/evaluation/**/.runtime/
+app/evaluation/real_world/documents/*.pdf
+app/evaluation/end_to_end/results.json
+app/evaluation/end_to_end/resume_results.json

@@ -1,0 +1,30 @@
+{
+  "configuration": {
+    "LLM_PROVIDER": "ollama",
+    "OLLAMA_MODEL": "qwen3:4b-instruct",
+    "BACKEND_PORT": "8000",
+    "FRONTEND_PORT": "5173",
+    "CHROMA_HOST_PORT": "8001"
+  },
+  "backend": {
+    "status": "unreachable_from_session",
+    "error_type": "URLError"
+  },
+  "frontend": {
+    "status": "unreachable_from_session",
+    "error_type": "URLError"
+  },
+  "chroma": {
+    "status": "unreachable_from_session",
+    "error_type": "URLError"
+  },
+  "ollama": {
+    "status": "unreachable_from_session",
+    "error_type": "URLError"
+  },
+  "docker": {
+    "exit_code": 1,
+    "error": "daemon access denied"
+  },
+  "host_network_error": "PermissionError: Windows socket error 10013; forbidden by access permissions"
+}

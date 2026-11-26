@@ -1,0 +1,105 @@
+{
+  "name": "finassist-phase6-evidence-v1",
+  "description": "Synthetic labelled evidence and claim-verification fixtures; no real company facts.",
+  "cases": [
+    {
+      "id": "e01",
+      "question": "What was FY2025 revenue?",
+      "expected_answerable": true,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000001", "text": "FY2025 revenue was $1.25 billion.", "page": 42}
+      ],
+      "expanded_evidence": [],
+      "candidate_answer": "FY2025 revenue was $1.25 billion [Source 1].",
+      "claim_labels": [{"supported": true, "citation_correct": true}]
+    },
+    {
+      "id": "e02",
+      "question": "What risks did the company disclose?",
+      "expected_answerable": true,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000002", "text": "The company disclosed foreign exchange volatility and cybersecurity incidents as principal risks.", "page": 28}
+      ],
+      "expanded_evidence": [],
+      "candidate_answer": "The disclosed risks included foreign exchange volatility and cybersecurity incidents [Source 1].",
+      "claim_labels": [{"supported": true, "citation_correct": true}]
+    },
+    {
+      "id": "e03",
+      "question": "What was FY2025 net profit?",
+      "expected_answerable": false,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000003", "text": "The board appointed a new chairperson during 2025.", "page": 5}
+      ],
+      "expanded_evidence": [],
+      "candidate_answer": "FY2025 net profit was $99 million [Source 1].",
+      "claim_labels": [{"supported": false, "citation_correct": false}]
+    },
+    {
+      "id": "e04",
+      "question": "What was FY2025 revenue?",
+      "expected_answerable": false,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000004", "text": "FY2024 revenue was $1.10 billion.", "page": 38}
+      ],
+      "expanded_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000009", "text": "FY2024 operating expenses were $820 million.", "page": 40}
+      ],
+      "candidate_answer": "FY2025 revenue was $1.25 billion [Source 1].",
+      "claim_labels": [{"supported": false, "citation_correct": false}]
+    },
+    {
+      "id": "e05",
+      "question": "Compare revenue in FY2024 and FY2025.",
+      "expected_answerable": true,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000005", "text": "FY2025 revenue was $1.25 billion.", "page": 42}
+      ],
+      "expanded_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000006", "text": "FY2024 revenue was $1.10 billion.", "page": 38}
+      ],
+      "candidate_answer": "FY2025 revenue was $1.25 billion [Source 1]. FY2024 revenue was $1.10 billion [Source 2].",
+      "claim_labels": [
+        {"supported": true, "citation_correct": true},
+        {"supported": true, "citation_correct": true}
+      ]
+    },
+    {
+      "id": "e06",
+      "question": "What were FY2025 revenue and profit?",
+      "expected_answerable": false,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000007", "text": "FY2025 revenue was $1.25 billion.", "page": 42}
+      ],
+      "expanded_evidence": [],
+      "candidate_answer": "FY2025 revenue was $1.25 billion [Source 1]. FY2025 profit was $146 million [Source 1].",
+      "claim_labels": [
+        {"supported": true, "citation_correct": true},
+        {"supported": false, "citation_correct": false}
+      ]
+    },
+    {
+      "id": "e07",
+      "question": "What was FY2025 revenue?",
+      "expected_answerable": true,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000010", "text": "FY2025 revenue was $1.25 billion.", "page": 42}
+      ],
+      "expanded_evidence": [],
+      "candidate_answer": "FY2025 revenue was $9.50 billion [Source 1].",
+      "claim_labels": [{"supported": false, "citation_correct": true}]
+    },
+    {
+      "id": "e08",
+      "question": "What was FY2025 revenue?",
+      "expected_answerable": true,
+      "initial_evidence": [
+        {"chunk_id": "30000000-0000-0000-0000-000000000011", "text": "FY2025 revenue was $1.25 billion.", "page": 42},
+        {"chunk_id": "30000000-0000-0000-0000-000000000012", "text": "The board declared a final dividend.", "page": 60}
+      ],
+      "expanded_evidence": [],
+      "candidate_answer": "FY2025 revenue was $1.25 billion [Source 2].",
+      "claim_labels": [{"supported": false, "citation_correct": false}]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "offline fixed text; no BM25/Chroma/BGE/Ollama latency or live accuracy",
+  "repetitions": 100,
+  "warmup_iterations": 10,
+  "products_question": "What products did Northstar Components manufacture in FY2024 and what was its sales model?",
+  "products_analysis": {
+    "query_type": "descriptive",
+    "has_financial_year": true,
+    "has_numeric_reference": false,
+    "has_currency_reference": false,
+    "has_comparison": false,
+    "has_exact_terms": true,
+    "has_company_name": true,
+    "has_regulatory_terms": false,
+    "has_financial_metrics": false,
+    "requires_semantic_context": true,
+    "exact_signal_count": 2,
+    "financial_years": [
+      "2024"
+    ],
+    "financial_metrics": [],
+    "company_names": [
+      "Northstar Components"
+    ]
+  },
+  "products_strategy": "hybrid",
+  "cash_question": "Summarize the cash flows for Riverton Industries in FY2025 including operating, investing, and financing activities and net change in cash.",
+  "calculator_answer": null,
+  "summary_answer": "Verified cash flow summary for Riverton Industries for FY2025 [Source 1]:\nOperating activities: $135,000 (net inflow) [Source 1].\nInvesting activities: ($90,000) (net outflow) [Source 1].\nFinancing activities: ($25,000) (net outflow) [Source 1].\nNet change in cash: $20,000.00; operating + investing + financing, independently reconciled to reported cash figures [Source 1].",
+  "routing": {
+    "mean_ms": 0.3548209999098617,
+    "median_ms": 0.32174999887502054,
+    "p95_ms": 0.49959999887505546
+  },
+  "calculation_and_summary": {
+    "mean_ms": 3.804128999963723,
+    "median_ms": 3.4267500013811514,
+    "p95_ms": 5.269199999020202
+  },
+  "source_sha256": {
+    "query_analyzer.py": "a396a594a2207299b1940da188cf42d9fb06c535311a8adc3f36460f633cebd0",
+    "financial_calculation.py": "bf201b1775ce0de46eea905555180ca6adef1a5b92d945ea046acac1766ece17",
+    "rag_pipeline.py": "de4e7cf750b4d508b5417538a7fc0ff5bbc975779aaf11c2c2494517bdd601ff",
+    "evidence_verifier.py": "44b9db899756b3d592f67eede290aecc561dcf0dcbf298b07a07f2e75699ead4",
+    "claim_verifier.py": "ffe1315fb82e57426675314a6d1aae1a5d9a20840f3e03a469023cd544c7201c"
+  }
+}

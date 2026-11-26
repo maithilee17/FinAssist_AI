@@ -1,0 +1,3355 @@
+{
+  "balance.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "6527983a-c337-57a6-876a-883f2ccda14e",
+        "document_id": "f69b3c7b-e13c-5a51-8dc8-de3921919e91",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          206.0
+        ],
+        "title": "USD; statement of financial position",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Balance Sheet\nUSD; statement of financial position",
+        "row_count": 3,
+        "column_count": 3,
+        "header_rows": [
+          [
+            "Metric",
+            "31 December 2025",
+            "31 December 2024"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "instant",
+            "frequency": "instant",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "31 December 2025"
+            ],
+            "period": "2025",
+            "reporting_date": "31 December 2025",
+            "period_kind": "instant",
+            "frequency": "instant",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "31 December 2024"
+            ],
+            "period": "2024",
+            "reporting_date": "31 December 2024",
+            "period_kind": "instant",
+            "frequency": "instant",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Total Assets",
+            "cells": [
+              {
+                "raw": "Total Assets",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "900,000",
+                "value": "900000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "800,000",
+                "value": "800000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Total Liabilities",
+            "cells": [
+              {
+                "raw": "Total Liabilities",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "540,000",
+                "value": "540000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "440,000",
+                "value": "440000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "cash.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "acc12704-7dcc-5ba6-9400-b4e10d15894f",
+        "document_id": "c8a52c0d-3947-5a38-9a78-d4ea4f55dcd8",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          238.0
+        ],
+        "title": "Consolidated Cash Flow Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Cash Flow Statement\nUSD; annual financial statements",
+        "row_count": 4,
+        "column_count": 2,
+        "header_rows": [
+          [
+            "Metric",
+            "FY2025"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Operating cash flow",
+            "cells": [
+              {
+                "raw": "Operating cash flow",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "135,000",
+                "value": "135000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Investing cash flow",
+            "cells": [
+              {
+                "raw": "Investing cash flow",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "(90,000)",
+                "value": "-90000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Financing cash flow",
+            "cells": [
+              {
+                "raw": "Financing cash flow",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "(25,000)",
+                "value": "-25000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "footnotes.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "97221dce-1c57-53ca-a130-f9e417d9b59a",
+        "document_id": "213312f2-76d2-5c0a-8b3f-74d633da7e49",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          302.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD; annual financial statements",
+        "row_count": 6,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000*",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [
+                  "qualified_cell_requires_review"
+                ],
+                "footnotes": [
+                  "*"
+                ]
+              },
+              {
+                "raw": "950,000",
+                "value": "950000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "820,000",
+                "value": "820000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780,000",
+                "value": "780000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "630,000",
+                "value": "630000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "560,000",
+                "value": "560000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "420,000",
+                "value": "420000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "320,000",
+                "value": "320000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "260,000",
+                "value": "260000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 4,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78,000",
+                "value": "78000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "65,000",
+                "value": "65000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 5,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160,000",
+                "value": "160000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "130,000",
+                "value": "130000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100,000",
+                "value": "100000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [
+          "* Revenue excludes an exceptional transaction; requires qualification."
+        ],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "forecast.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "6bc5ea96-dcdd-51fa-b7ba-68aaf078fb39",
+        "document_id": "79dbf0b0-a442-55eb-bb30-4d3e68a95246",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          206.0
+        ],
+        "title": "Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nIncome Statement\nUSD; annual financial statements",
+        "row_count": 3,
+        "column_count": 3,
+        "header_rows": [
+          [
+            "Metric",
+            "FY2025 Actual",
+            "FY2025 Forecast"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "unspecified",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025 Actual"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "unspecified",
+            "basis": "actual",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2025 Forecast"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "unspecified",
+            "basis": "forecast",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,500,000",
+                "value": "1500000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100,000",
+                "value": "100000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "merged.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "001f57b0-39f9-54a8-9b1e-f0c452cea140",
+        "document_id": "62f28c4a-a569-5a97-95ed-5e3efd750a1f",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          334.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD; annual financial statements",
+        "row_count": 7,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "Consolidated actual",
+            null,
+            null
+          ],
+          [
+            null,
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "Consolidated actual",
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "actual",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "Consolidated actual",
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "actual",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "Consolidated actual",
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "actual",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 2,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "950,000",
+                "value": "950000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "820,000",
+                "value": "820000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780,000",
+                "value": "780000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "630,000",
+                "value": "630000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "560,000",
+                "value": "560000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 4,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "420,000",
+                "value": "420000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "320,000",
+                "value": "320000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "260,000",
+                "value": "260000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 5,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78,000",
+                "value": "78000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "65,000",
+                "value": "65000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 6,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160,000",
+                "value": "160000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "130,000",
+                "value": "130000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100,000",
+                "value": "100000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "missing.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "a58bd8a7-70a5-592c-b9b3-18e836d29f28",
+        "document_id": "aae2f047-3d17-5adc-ba2c-5efc096df63e",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          302.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD; annual financial statements",
+        "row_count": 6,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "-",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "missing",
+                "warnings": [
+                  "dash_not_assumed_zero"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "820,000",
+                "value": "820000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780,000",
+                "value": "780000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "630,000",
+                "value": "630000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "560,000",
+                "value": "560000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "missing",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "320,000",
+                "value": "320000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "260,000",
+                "value": "260000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 4,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78,000",
+                "value": "78000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1.200,50",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "ambiguous",
+                "warnings": [
+                  "ambiguous_numeric_format"
+                ],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 5,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160,000",
+                "value": "160000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "130,000",
+                "value": "130000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100,000",
+                "value": "100000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "multiline.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "21429751-36ae-5a06-bffc-499ce544ac4b",
+        "document_id": "1557bfcd-3020-5169-bbaa-b50b2c971e4b",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          302.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD; annual financial statements",
+        "row_count": 6,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue from operations",
+            "cells": [
+              {
+                "raw": "Revenue from\noperations",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "950,000",
+                "value": "950000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "820,000",
+                "value": "820000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780,000",
+                "value": "780000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "630,000",
+                "value": "630000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "560,000",
+                "value": "560000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "420,000",
+                "value": "420000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "320,000",
+                "value": "320000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "260,000",
+                "value": "260000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 4,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78,000",
+                "value": "78000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "65,000",
+                "value": "65000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 5,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160,000",
+                "value": "160000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "130,000",
+                "value": "130000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100,000",
+                "value": "100000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "multipage.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "6cb911b6-b14a-5e77-be00-325c08a5d953",
+        "document_id": "0fe17c29-8ec1-52ec-b8d4-f3b3208d206b",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          238.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD; annual financial statements",
+        "row_count": 4,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "950,000",
+                "value": "950000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "820,000",
+                "value": "820000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780,000",
+                "value": "780000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "630,000",
+                "value": "630000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "560,000",
+                "value": "560000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "420,000",
+                "value": "420000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "320,000",
+                "value": "320000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "260,000",
+                "value": "260000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      },
+      {
+        "version": 1,
+        "table_id": "999e44d4-f922-5d1a-aff3-4fd3a99a1b59",
+        "document_id": "0fe17c29-8ec1-52ec-b8d4-f3b3208d206b",
+        "page_number": 2,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          206.0
+        ],
+        "title": "Consolidated Income Statement (continued)",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement (continued)\nUSD; annual financial statements",
+        "row_count": 3,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78,000",
+                "value": "78000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "65,000",
+                "value": "65000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160,000",
+                "value": "160000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "130,000",
+                "value": "130000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100,000",
+                "value": "100000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": "6cb911b6-b14a-5e77-be00-325c08a5d953"
+      }
+    ],
+    "warnings": []
+  },
+  "quarterly.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "2bcef111-8e03-5747-8c8b-df89fb8812b2",
+        "document_id": "ad2032c5-fb2f-52a0-9270-fb91d296a841",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          206.0
+        ],
+        "title": "Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nIncome Statement\nUSD; annual financial statements",
+        "row_count": 3,
+        "column_count": 3,
+        "header_rows": [
+          [
+            "Metric",
+            "Q1 FY2025",
+            "FY2024 Annual"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "unspecified",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "Q1 FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "quarterly:Q1",
+            "consolidation": "unspecified",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024 Annual"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "unspecified",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "200,000",
+                "value": "200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "950,000",
+                "value": "950000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "20,000",
+                "value": "20000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78,000",
+                "value": "78000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "simple.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "8fe57162-3a49-5cb1-8dfc-9073c59db740",
+        "document_id": "8527dc99-9daa-5c1a-a3c4-bcc68deb8ca7",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          302.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD; annual financial statements",
+        "row_count": 6,
+        "column_count": 2,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780,000",
+                "value": "780000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "420,000",
+                "value": "420000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 4,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 5,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160,000",
+                "value": "160000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "three_year.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "c5552596-4432-5aa5-8732-06450420fa09",
+        "document_id": "5511603d-60df-5dda-ae27-437ed6a04e9f",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          302.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD; annual financial statements",
+        "row_count": 6,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1,200,000",
+                "value": "1200000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "950,000",
+                "value": "950000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "820,000",
+                "value": "820000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780,000",
+                "value": "780000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "630,000",
+                "value": "630000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "560,000",
+                "value": "560000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "420,000",
+                "value": "420000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "320,000",
+                "value": "320000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "260,000",
+                "value": "260000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 4,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91,000",
+                "value": "91000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78,000",
+                "value": "78000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "65,000",
+                "value": "65000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 5,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160,000",
+                "value": "160000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "130,000",
+                "value": "130000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100,000",
+                "value": "100000",
+                "currency": "USD",
+                "multiplier": "1",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  },
+  "units.pdf": {
+    "tables": [
+      {
+        "version": 1,
+        "table_id": "8ec88725-f088-50c2-8300-f142bb344d25",
+        "document_id": "ffb6af29-104c-5f6e-b0be-108b761f3105",
+        "page_number": 1,
+        "bbox": [
+          45.0,
+          110.0,
+          550.0,
+          302.0
+        ],
+        "title": "Consolidated Income Statement",
+        "entity_context": "Example Industries\nExample Industries\nConsolidated Income Statement\nUSD in thousands; annual financial statements",
+        "row_count": 6,
+        "column_count": 4,
+        "header_rows": [
+          [
+            "Financial Metric",
+            "FY2025",
+            "FY2024",
+            "FY2023"
+          ]
+        ],
+        "columns": [
+          {
+            "index": 0,
+            "header_path": [
+              "Financial Metric"
+            ],
+            "period": null,
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "label",
+            "currency": "USD",
+            "multiplier": "1000",
+            "warnings": []
+          },
+          {
+            "index": 1,
+            "header_path": [
+              "FY2025"
+            ],
+            "period": "2025",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1000",
+            "warnings": []
+          },
+          {
+            "index": 2,
+            "header_path": [
+              "FY2024"
+            ],
+            "period": "2024",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1000",
+            "warnings": []
+          },
+          {
+            "index": 3,
+            "header_path": [
+              "FY2023"
+            ],
+            "period": "2023",
+            "reporting_date": null,
+            "period_kind": "duration",
+            "frequency": "annual",
+            "consolidation": "consolidated",
+            "basis": "reported",
+            "entity": null,
+            "role": "value",
+            "currency": "USD",
+            "multiplier": "1000",
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "index": 1,
+            "label": "Revenue",
+            "cells": [
+              {
+                "raw": "Revenue",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "text",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "1200.0",
+                "value": "1200000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "950.0",
+                "value": "950000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "820.0",
+                "value": "820000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 2,
+            "label": "Cost of Sales",
+            "cells": [
+              {
+                "raw": "Cost of Sales",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "780.0",
+                "value": "780000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "630.0",
+                "value": "630000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "560.0",
+                "value": "560000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 3,
+            "label": "Gross Profit",
+            "cells": [
+              {
+                "raw": "Gross Profit",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "420.0",
+                "value": "420000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "320.0",
+                "value": "320000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "260.0",
+                "value": "260000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "subtotal",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 4,
+            "label": "Net Income",
+            "cells": [
+              {
+                "raw": "Net Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "91.0",
+                "value": "91000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "78.0",
+                "value": "78000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "65.0",
+                "value": "65000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          },
+          {
+            "index": 5,
+            "label": "Operating Income",
+            "cells": [
+              {
+                "raw": "Operating Income",
+                "value": null,
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "text",
+                "warnings": [
+                  "embedded_text_or_unresolved_number_spacing"
+                ],
+                "footnotes": []
+              },
+              {
+                "raw": "160.0",
+                "value": "160000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "130.0",
+                "value": "130000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              },
+              {
+                "raw": "100.0",
+                "value": "100000.0",
+                "currency": "USD",
+                "multiplier": "1000",
+                "kind": "number",
+                "warnings": [],
+                "footnotes": []
+              }
+            ],
+            "kind": "data",
+            "indent": 4.0,
+            "section_path": []
+          }
+        ],
+        "notes": [],
+        "warnings": [],
+        "status": "certain",
+        "method": "PyMuPDF.find_tables/lines",
+        "continuation_of": null
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "env_unchanged": true,
+  "production_database_or_vector_mutations": false,
+  "production_persistence_verified": false,
+  "scope": "No live runtime access. Original PDF page-text hashes compared separately in offline evaluation.",
+  "vector_store_source_unchanged": true
+}

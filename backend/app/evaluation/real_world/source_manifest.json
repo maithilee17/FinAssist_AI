@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "retrieved_on": "2026-11-03",
+  "documents": [
+    {
+      "document_id": "71000000-0000-0000-0000-000000000001",
+      "company": "NVIDIA Corporation",
+      "document_name": "NVIDIA 2025 Annual Report",
+      "reporting_period": "Fiscal year ended January 26, 2025",
+      "local_filename": "nvidia-2025-annual-report.pdf",
+      "official_landing_page": "https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx",
+      "source_url": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/annual/NVIDIA-2025-Annual-Report.pdf",
+      "sha256": "757b344ab62ba282f6e44e0702e8ce5f190d88fb23b5e0a2beaf4cb277a395cc",
+      "file_size_bytes": 49970589,
+      "pdf_page_count": 181
+    },
+    {
+      "document_id": "71000000-0000-0000-0000-000000000002",
+      "company": "The Coca-Cola Company",
+      "document_name": "The Coca-Cola Company 2024 Form 10-K",
+      "reporting_period": "Year ended December 31, 2024",
+      "local_filename": "coca-cola-2024-10-k.pdf",
+      "official_landing_page": "https://investors.coca-colacompany.com/filings-reports/annual-filings-10-k/content/0000021344-25-000011/ko-20241231.htm",
+      "source_url": "https://investors.coca-colacompany.com/_assets/_f46f3cf37cd460897f31752fae36818f/cocacolacompany/db/1008/10477/document/2024_10-K_%28Bookmarked%29.pdf",
+      "sha256": "96da013cf58c651ae82253c926bfe5bbd1ae63fbcdd4da03efaecf363da11963",
+      "file_size_bytes": 1354777,
+      "pdf_page_count": 140
+    }
+  ]
+}

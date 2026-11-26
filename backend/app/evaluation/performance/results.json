@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T23:27:57.0574552+05:30",
+  "status": "verified_with_environment_blockers",
+  "artifacts": {
+    "baseline": {
+      "path": "baseline_results.json",
+      "sha256": "aa6b2eed71c3cbde59151f7b7dffad32955a3999761a2a938c030384095abd9a"
+    },
+    "optimized": {
+      "path": "optimized_results.json",
+      "sha256": "66254fdac810c6a8bffbe97d7ab0759a219e8f39977d0d4c4a901e16df3d4719"
+    },
+    "phase_71_reference": {
+      "path": "../real_world/results.json",
+      "sha256": "f6cf250d574cb33944de50657ea56b5549795dcf70797888b3b171456222b46a"
+    }
+  },
+  "workload": {
+    "documents": 2,
+    "chunks": 662,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "embedding_dimension": 384,
+    "device": "cpu",
+    "gpu_measured": false,
+    "llm_enabled": false
+  },
+  "measurements": {
+    "nvidia_pdf_extraction": {
+      "measurement_type": "single_run_observation",
+      "baseline_wall_time_ms": 813.189,
+      "optimized_wall_time_ms": 669.296,
+      "observed_wall_time_reduction_percent": 17.695,
+      "baseline_peak_working_set_growth_bytes": 106921984,
+      "optimized_peak_working_set_growth_bytes": 56770560,
+      "observed_peak_growth_reduction_percent": 46.905,
+      "statistical_significance_claimed": false
+    },
+    "coca_cola_pdf_extraction": {
+      "measurement_type": "single_run_observation",
+      "baseline_wall_time_ms": 511.572,
+      "optimized_wall_time_ms": 598.526,
+      "baseline_peak_working_set_growth_bytes": 4501504,
+      "optimized_peak_working_set_growth_bytes": 4210688,
+      "statistical_significance_claimed": false
+    },
+    "exact_cosine_search": {
+      "measurement_type": "16_probe_average",
+      "baseline_average_ms": 11.377,
+      "optimized_average_ms": 0.862,
+      "observed_latency_reduction_percent": 92.423,
+      "ranking_equivalent": true,
+      "equivalent_probe_count": 16,
+      "top_k": 5,
+      "scope": "evaluation-only in-memory exact-cosine substitute; not ChromaDB",
+      "vectors": "cached normalized production BGE vectors"
+    },
+    "embedding_cache_load": {
+      "measurement_type": "single_run_observation",
+      "baseline_ms": 14.371,
+      "optimized_ms": 15.081,
+      "embedding_count": 662
+    },
+    "bm25": {
+      "baseline_cold_index_and_score_ms": 648.519,
+      "optimized_run_cold_index_and_score_ms": 744.829,
+      "baseline_warm_score_average_ms": 1.943,
+      "optimized_run_warm_score_average_ms": 1.541,
+      "improvement_claimed": false,
+      "database_query_included": false
+    },
+    "verification": {
+      "baseline_evidence_average_ms": 13.504,
+      "optimized_run_evidence_average_ms": 12.96,
+      "baseline_claim_average_ms": 2.831,
+      "optimized_run_claim_average_ms": 2.629,
+      "improvement_claimed": false
+    },
+    "phase_71_pipeline_reference": {
+      "case_count": 16,
+      "average_retrieval_latency_ms": 639.044,
+      "average_verification_latency_ms": 27.509,
+      "average_end_to_end_latency_ms_without_llm": 668.17,
+      "citation_page_correctness": 0.7,
+      "rerun_in_phase_73": false
+    }
+  },
+  "reliability": {
+    "benchmark_pdf_checks": {
+      "passed": 7,
+      "failed": 0,
+      "checks": [
+        "corrupted_pdf",
+        "unsupported_file_content",
+        "empty_text_pdf",
+        "financial_punctuation",
+        "multi_page_pdf",
+        "retry_after_failure",
+        "large_real_pdf"
+      ]
+    },
+    "pdf_and_chunk_regression_tests": {
+      "passed": 10,
+      "failed": 0
+    },
+    "ranking_equivalence": {
+      "passed": 16,
+      "failed": 0
+    }
+  },
+  "automated_checks": {
+    "backend_collected": 103,
+    "backend_unique_passed_in_bounded_runs": 47,
+    "backend_failed": 0,
+    "backend_skipped": 1,
+    "backend_blocked_or_not_run": 55,
+    "backend_full_suite_completed": false,
+    "backend_blockers": [
+      "tests/test_adaptive_retrieval.py::test_hybrid_runs_both_systems_and_fuses_duplicate_chunk stalled while creating the managed Windows asyncio event loop",
+      "tests/test_migrations.py::test_initial_migration_upgrade_and_downgrade stalled in this managed environment"
+    ],
+    "synchronous_backend_subset": {
+      "passed": 46,
+      "skipped": 1,
+      "deselected": 55,
+      "ignored_blocked_migration_test": 1
+    },
+    "phase_71_checks": {
+      "passed": 3,
+      "failed": 0
+    },
+    "ruff": "passed",
+    "frontend_eslint": "passed",
+    "frontend_build": {
+      "status": "passed",
+      "modules_transformed": 1759,
+      "duration_seconds": 31.17
+    }
+  },
+  "blocked_or_unavailable": {
+    "fresh_full_corpus_bge_generation": {
+      "status": "unavailable",
+      "reason": "The bounded CPU-only run did not complete; no throughput is reported."
+    },
+    "gpu": {
+      "status": "unavailable",
+      "reason": "CPU-only runtime"
+    },
+    "postgresql": {
+      "status": "blocked",
+      "tested": false
+    },
+    "chromadb": {
+      "status": "blocked",
+      "tested": false
+    },
+    "llm": {
+      "status": "blocked",
+      "tested": false
+    },
+    "ocr": {
+      "status": "not_implemented"
+    },
+    "docker_operations_performed": false
+  }
+}

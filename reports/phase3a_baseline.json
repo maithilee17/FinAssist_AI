@@ -1,0 +1,47 @@
+{
+  "scope": "offline fixed text; no BM25/Chroma/BGE/Ollama latency or live accuracy",
+  "repetitions": 100,
+  "warmup_iterations": 10,
+  "products_question": "What products did Northstar Components manufacture in FY2024 and what was its sales model?",
+  "products_analysis": {
+    "query_type": "financial_metric",
+    "has_financial_year": true,
+    "has_numeric_reference": true,
+    "has_currency_reference": false,
+    "has_comparison": false,
+    "has_exact_terms": true,
+    "has_company_name": false,
+    "has_regulatory_terms": false,
+    "has_financial_metrics": true,
+    "requires_semantic_context": false,
+    "exact_signal_count": 3,
+    "financial_years": [
+      "2024"
+    ],
+    "financial_metrics": [
+      "sales"
+    ],
+    "company_names": []
+  },
+  "products_strategy": "keyword",
+  "cash_question": "Summarize the cash flows for Riverton Industries in FY2025 including operating, investing, and financing activities and net change in cash.",
+  "calculator_answer": "Derived net change in cash for FY2025: ending cash - beginning cash = 80000 - 60000 = 20000.00 USD [Source 1].",
+  "summary_answer": null,
+  "routing": {
+    "mean_ms": 0.2996400000756694,
+    "median_ms": 0.2625999995871098,
+    "p95_ms": 0.457500000266009
+  },
+  "calculation_and_summary": {
+    "mean_ms": 5.243669000046793,
+    "median_ms": 4.59450000016659,
+    "p95_ms": 7.758100000501145
+  },
+  "source_sha256": {
+    "query_analyzer.py": "db361cebf3be6b87087bd64758719073fc73e051764fe2735fa4454c0ce9c305",
+    "financial_calculation.py": "608487203cc25239e5f3f25c8cef05c0648a081dfa1170023a9711ed3174fdd2",
+    "rag_pipeline.py": "1b665ff08e3b851d19f668b6893609a80fe87d1f0efbf1bbce44ff87e10deccb",
+    "evidence_verifier.py": "4ac389449bbd4336057c39889ef6fd1d86ef291ef4f641245c249a803ac42cbf",
+    "claim_verifier.py": "88344367d1c0728e5531d5f1b68989345e25fbc682e165a65f7d019e1efe1ed4"
+  }
+}

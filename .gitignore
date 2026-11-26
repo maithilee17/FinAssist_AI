@@ -1,0 +1,56 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.part
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Runtime data
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/.model-cache/
+.model-cache/
+.finassist-state/
+logs/
+chroma-data/
+postgres-data/
+
+# Evaluation runtime data and reproducible caches
+**/.runtime/
+**/.cache/
+backend/app/evaluation/real_world/documents/*.pdf
+
+# Historical E2E results contain captured test bearer tokens; regenerate with redaction
+backend/app/evaluation/end_to_end/results.json
+backend/app/evaluation/end_to_end/resume_results.json
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+project_structure.txt

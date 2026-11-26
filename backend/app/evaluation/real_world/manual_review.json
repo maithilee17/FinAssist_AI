@@ -1,0 +1,94 @@
+{
+  "reviewed_on": "2026-11-06",
+  "scope": "Manual review of the final post-fix results.json against the labelled PDF pages and retrieved excerpts.",
+  "summary": {
+    "cases_reviewed": 16,
+    "clean_passes": 9,
+    "retrieval_or_citation_failures": 4,
+    "expected_status_label_differences_without_policy_failure": 2,
+    "partial_evidence_case": 1
+  },
+  "cases": [
+    {
+      "case_id": "nvidia-exact-revenue-2025",
+      "manual_status": "retrieval_failure",
+      "notes": "Keyword retrieval did not return PDF page 130 or another passage containing the consolidated $130,497 million value in the returned set. Evidence was marked sufficient from related fiscal-2025 revenue passages, so the exact-value citation requirement failed."
+    },
+    {
+      "case_id": "nvidia-operating-income-2025",
+      "manual_status": "retrieval_failure",
+      "notes": "Keyword retrieval favored proxy-compensation passages containing non-GAAP operating-income terminology and did not return the page-130 consolidated value."
+    },
+    {
+      "case_id": "nvidia-revenue-comparison",
+      "manual_status": "partial_evidence",
+      "notes": "PDF pages 18-19 support rounded fiscal-2025 revenue and the 114% increase, but not both exact endpoints in the reference answer; claim verification correctly rejected the exact claim."
+    },
+    {
+      "case_id": "nvidia-data-center-drivers",
+      "manual_status": "pass",
+      "notes": "Retrieved passages cover Hopper/AI demand and Ethernet contributions with valid source pages."
+    },
+    {
+      "case_id": "nvidia-supply-transition-risks",
+      "manual_status": "pass",
+      "notes": "Expanded hybrid retrieval reached the relevant supply and transition risk section; the reference claim and citation were verified."
+    },
+    {
+      "case_id": "nvidia-missing-debt-equity",
+      "manual_status": "pass",
+      "notes": "Related debt/equity passages were weak evidence, the explicitly requested ratio was absent, and the system abstained after bounded expansion."
+    },
+    {
+      "case_id": "nvidia-ambiguous-profit",
+      "manual_status": "pass",
+      "notes": "The ambiguity detector requested clarification rather than choosing a profit definition, and the system abstained."
+    },
+    {
+      "case_id": "nvidia-future-period",
+      "manual_status": "label_difference_policy_pass",
+      "notes": "Observed evidence status was weak rather than the labelled insufficient because related revenue passages existed; the requested 2030 revenue remained missing and the final decision correctly abstained."
+    },
+    {
+      "case_id": "coke-exact-revenue-2024",
+      "manual_status": "pass",
+      "notes": "Bounded expansion retrieved the $47,061 million passage and the reference claim/citation verified."
+    },
+    {
+      "case_id": "coke-operating-income-2024",
+      "manual_status": "pass",
+      "notes": "Keyword proximity reranking retrieved the operating-income disclosure and the reference claim/citation verified."
+    },
+    {
+      "case_id": "coke-margin-comparison",
+      "manual_status": "pass",
+      "notes": "Hybrid retrieval found the 21.2% and 24.7% operating-margin table and verification succeeded."
+    },
+    {
+      "case_id": "coke-operating-income-factors",
+      "manual_status": "pass",
+      "notes": "Hybrid retrieval returned the stated operating-income drivers on PDF pages 51-52 and the claim verified."
+    },
+    {
+      "case_id": "coke-volume-and-revenue",
+      "manual_status": "retrieval_failure",
+      "notes": "Revenue evidence was retrieved, but the page-7 33.7/33.3 billion unit-case values were not. Evidence sufficiency was overly permissive because other unit-volume percentages occurred in the retrieved passages; claim verification correctly rejected the combined reference claim."
+    },
+    {
+      "case_id": "coke-missing-debt-equity",
+      "manual_status": "pass",
+      "notes": "Component debt/equity evidence remained weak without an explicitly reported ratio, and the final policy abstained."
+    },
+    {
+      "case_id": "coke-ambiguous-performance",
+      "manual_status": "pass",
+      "notes": "The broad performance question was recognized as ambiguous and the system abstained after bounded retrieval."
+    },
+    {
+      "case_id": "coke-future-period",
+      "manual_status": "label_difference_policy_pass",
+      "notes": "Observed status was weak rather than insufficient due to related revenue passages; 2026 revenue remained missing and the final policy correctly abstained."
+    }
+  ],
+  "method_note": "Manual statuses are qualitative review labels, not additional automatically measured metrics. The automatic metrics remain those in results.json."
+}

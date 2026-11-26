@@ -1,0 +1,138 @@
+[
+  {
+    "file": "test_adaptive_retrieval.py",
+    "status": "PASSED",
+    "duration_s": 1.385,
+    "stdout": "....                                                                     [100%]\n4 passed in 0.03s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_auth.py",
+    "status": "PASSED",
+    "duration_s": 2.354,
+    "stdout": "............                                                             [100%]\n12 passed in 0.93s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_calculation_period_regression.py",
+    "status": "PASSED",
+    "duration_s": 1.394,
+    "stdout": ".                                                                        [100%]\n1 passed, 10 deselected in 0.03s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_chat_api.py",
+    "status": "PASSED",
+    "duration_s": 2.277,
+    "stdout": "......                                                                   [100%]\n6 passed in 0.88s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_documents.py",
+    "status": "PASSED",
+    "duration_s": 2.914,
+    "stdout": "............                                                             [100%]\n12 passed in 1.55s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_evidence_pipeline.py",
+    "status": "PASSED",
+    "duration_s": 1.837,
+    "stdout": "......                                                                   [100%]\n6 passed in 0.44s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_health.py",
+    "status": "PASSED",
+    "duration_s": 1.381,
+    "stdout": "....                                                                     [100%]\n4 passed in 0.04s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_keyword_retrieval.py",
+    "status": "PASSED",
+    "duration_s": 1.717,
+    "stdout": "......                                                                   [100%]\n6 passed in 0.31s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_llm_service.py",
+    "status": "PASSED",
+    "duration_s": 1.432,
+    "stdout": ".......................                                                  [100%]\n23 passed in 0.05s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_models.py",
+    "status": "PASSED",
+    "duration_s": 1.513,
+    "stdout": "..                                                                       [100%]\n2 passed in 0.11s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_northstar_calculation_regression.py",
+    "status": "PASSED",
+    "duration_s": 1.519,
+    "stdout": "...                                                                      [100%]\n3 passed, 46 deselected in 0.20s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_phase3a.py",
+    "status": "PASSED",
+    "duration_s": 1.473,
+    "stdout": "..                                                                       [100%]\n2 passed, 27 deselected in 0.05s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_phase4_integrations.py",
+    "status": "PASSED",
+    "duration_s": 1.391,
+    "stdout": "s                                                                        [100%]\n1 skipped, 1 deselected in 0.02s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_rag_pipeline.py",
+    "status": "PASSED",
+    "duration_s": 1.685,
+    "stdout": "....                                                                     [100%]\n4 passed in 0.34s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_revenue_retrieval_regression.py",
+    "status": "PASSED",
+    "duration_s": 1.725,
+    "stdout": "......                                                                   [100%]\n6 passed in 0.37s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_six_functional_fixes.py",
+    "status": "PASSED",
+    "duration_s": 1.391,
+    "stdout": "...                                                                      [100%]\n3 passed, 45 deselected in 0.06s",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "file": "test_structured_tables_integration.py",
+    "status": "PASSED",
+    "duration_s": 1.52,
+    "stdout": ".                                                                        [100%]\n1 passed in 0.20s",
+    "stderr": "",
+    "returncode": 0
+  }
+]

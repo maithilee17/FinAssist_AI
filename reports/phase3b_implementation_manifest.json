@@ -1,0 +1,25 @@
+{
+  "files": {
+    "backend/app/services/financial_cell_normalizer.py": "c1badb35955a61beb1572aded58ee1171ba2bcb50e322afb5fb9dd277fa7ffb6",
+    "backend/app/services/financial_table_extractor.py": "b2a967861770ec7b04e7210d9cdbb5d35ac79493b7009e22f76157bc86b78520",
+    "backend/app/services/structured_financial_calculation.py": "c29b9488b5cf720b9ca5026a208f6759cec8b18bc710b874f838bf21e2f61501",
+    "backend/app/services/financial_table_context.py": "8adfd86692c2ab1b90db7a5134c89e017033b58875b75a598bbd1ba1225fc058",
+    "backend/app/services/pdf_processor.py": "e1e43a2ca2af9a44d8e3b0241224c0763daf2507816a316561143495444b19f3",
+    "backend/app/services/text_chunker.py": "fd5a58d090a141ce204a71f855537885a6c466dd8e7afa36c9feee542678ab24",
+    "backend/app/services/financial_calculation.py": "fb4d358b32c259dbbdbeb80862530c54547f99079fde8b16974e94991167fbcf",
+    "backend/app/services/claim_verifier.py": "03d7f1c47a824711f28248119951a7a5b81eb8f686b9314a84940588b26e79c0",
+    "backend/app/services/evidence_verifier.py": "b3e430a9e236a3bf7f0a0cc9f329c441dcf6bbeef94914f0e2d2f8f97e02399d",
+    "backend/app/services/evidence_page_selector.py": "a1e591eabe984f088a35db0bb50478bb5366e40e3c6a9351d5478ab8062ed457",
+    "backend/app/services/rag_pipeline.py": "a4c1800359833fd9377f99f3c4d72bf5e34231a91d53c3d546c1213bfadcb7b4",
+    "backend/app/services/embedding_service.py": "8c59a161d753e64e6815aae93c7f76a305719c5a78c36b1b578aa0b97504f76a",
+    "backend/app/services/keyword_retrieval.py": "e56c892df759d47df43fda9a96dcaf3e011f19e9b6312d0e3db98287b85c8d61",
+    "backend/app/services/query_analyzer.py": "b48d765e5c8506fbc2802a5baa18d2baf6b3dcd094681bc5eccbb13725906216",
+    "backend/app/services/question_requirements.py": "c73d7316a6329cfca90454ffa4353fac8180f5b16efadfc25ea00a18f17637cf",
+    "backend/app/evaluation/phase3b_table_eval.py": "4a14f1a67ab4454f44a4dfa153ace389272f63e16696fe68bb4a92093bc3af95",
+    "backend/tests/table_fixtures.py": "a59964a0e7b535a0ac20cc1076fc550fa8ec140892aeae9e44c9ceb23d6f3b8d",
+    "backend/tests/test_structured_financial_tables.py": "bdc7732e084582cf37badfff43a1d200822bf178a18a648476842a0f42d903b3",
+    "backend/tests/test_structured_tables_sql.py": "1d19908f51da555f3aa66a1ae41fe089c7a6af1a9e909547acc1c5022b717318",
+    "backend/tests/test_structured_tables_integration.py": "6858040bb5b646dbcff9ace98fa40f459007a2cb6db2376c9e1663b889a99129"
+  },
+  "scope": "Phase 3B source files only; repository is untracked/unborn, no commit created"
+}

@@ -1,0 +1,79 @@
+{
+  "source_sha256": {
+    "pdf_processor.py": "7b23874ae8c65974d0bb7d9230b467a481b23a1d01f599f3461f24b446b9ebf8",
+    "text_chunker.py": "c67655230d8c874231bf0d1b0bbb395fc91128273acb065dca29599ece042a79",
+    "financial_calculation.py": "bf201b1775ce0de46eea905555180ca6adef1a5b92d945ea046acac1766ece17",
+    "evidence_verifier.py": "44b9db899756b3d592f67eede290aecc561dcf0dcbf298b07a07f2e75699ead4",
+    "claim_verifier.py": "ffe1315fb82e57426675314a6d1aae1a5d9a20840f3e03a469023cd544c7201c",
+    "rag_pipeline.py": "de4e7cf750b4d508b5417538a7fc0ff5bbc975779aaf11c2c2494517bdd601ff",
+    "vector_store.py": "c68fe37e47caeebdcd359e68c471af2645cd8d7d9e1ff1923349646240ced0df"
+  },
+  "env_sha256": "8ee4291b426bc68836380c6994dc9c44fe3d289bbe0676ce20ff2ed3303b0c05",
+  "scope": "pre-change offline PDF extraction; no live database state inferred",
+  "documents": [
+    {
+      "filename": "three_year.pdf",
+      "pages": 1,
+      "chunks": 1,
+      "page_text_sha256": [
+        "2982f0d9be4bdf3540d738476fdf686b74a0698e97b020f1db670c427162d3cb"
+      ],
+      "chunk_ids": [
+        "99c96bd9-034b-590a-90b9-d41bc844386f"
+      ],
+      "mean_extraction_ms": 2.849459999924875,
+      "mean_chunking_ms": 0.08350000061909668
+    },
+    {
+      "filename": "FinAssist_Sample_Financial_Report.pdf",
+      "pages": 5,
+      "chunks": 3,
+      "page_text_sha256": [
+        "634ed03967c80ae256874f548d66d3126a457e12104047cb83df7d4d3d0e9c2e",
+        "e28a3033765ff20588820c0558a8815508b86927fd9f03846d460684d3573eee",
+        "bb8149d9d36a4b193c79fff6a25ae2ee135cb810e068e6e2f4adb4a67a838aa1",
+        "f16f59ae5ffa18bef15e4099bd9f86e586ba0aab58d598c2e2658f660efaaeaa",
+        "e343a5af5f285778456b41a69660d1d28df5ef78f50061dafd928ad0c474f995"
+      ],
+      "chunk_ids": [
+        "fcdd67d7-3894-5def-9832-e2eb96890a44",
+        "a18cd747-85ea-5226-9447-fb7dca2207a2",
+        "48869435-d1ec-5c7c-a881-f60878ab782c"
+      ],
+      "mean_extraction_ms": 4.00950000002922,
+      "mean_chunking_ms": 0.5541400001675356
+    },
+    {
+      "filename": "Northstar_Components_FY2024_Test_Report.pdf",
+      "pages": 3,
+      "chunks": 2,
+      "page_text_sha256": [
+        "42cb495ff191df13ee38cf762ab5d8cb67da0d94fae45f5156d592ab17a57485",
+        "a3babc06a2f8353b94e43b557c3a0deefd92f84850fb7be64e76f6cca4ad894d",
+        "e4320397be2a66350553e2a86de87120c63ba8d1ec6d20161e050a943410ea5f"
+      ],
+      "chunk_ids": [
+        "99c7bed6-526b-572a-bfb9-9bac2f29e63d",
+        "f0525bdb-bfce-5a3c-babb-0812471f54f0"
+      ],
+      "mean_extraction_ms": 2.943579999919166,
+      "mean_chunking_ms": 0.37682000001950655
+    },
+    {
+      "filename": "Riverton_Industries_FY2025_Test_Report.pdf",
+      "pages": 3,
+      "chunks": 2,
+      "page_text_sha256": [
+        "ef7de212253c371a233a06b18fab8d585498f319ebfeb1fd65cbae9204ed1914",
+        "a88ec5601b2fd9e4d2ef801dab7fb0c71ce9ee2645396f79bb0411dc0656195e",
+        "9d1ed6ada61a87d9d4d80444095bcacbd6d6af49f17f10ba1c1f424d74ffd179"
+      ],
+      "chunk_ids": [
+        "7c61fef8-ce39-5a4b-9792-ab98cbefcba3",
+        "c2f4c875-0f1c-5e30-aae1-729d6c3217be"
+      ],
+      "mean_extraction_ms": 3.250299999854178,
+      "mean_chunking_ms": 0.45561999977508094
+    }
+  ]
+}

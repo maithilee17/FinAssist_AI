@@ -1,0 +1,118 @@
+{
+  "tests": [
+    {
+      "name": "Health Ready Check",
+      "status": "PASS",
+      "details": {
+        "status": "ready",
+        "services": {
+          "postgres": {
+            "status": "up",
+            "detail": null
+          },
+          "chroma": {
+            "status": "up",
+            "detail": null
+          },
+          "ollama": {
+            "status": "up",
+            "detail": null
+          }
+        }
+      }
+    },
+    {
+      "name": "Multi-Year Dashboard & Trends",
+      "status": "PASS",
+      "kpi_cards": [
+        {
+          "label": "Total Revenue",
+          "value": 1200000.0,
+          "formatted_value": "$1.20M",
+          "currency": "USD",
+          "scale": null,
+          "period": "FY2025",
+          "yoy_change": 26.32,
+          "yoy_change_formatted": "+26.32%",
+          "yoy_change_unit": "%",
+          "source_citation": "Page 1"
+        },
+        {
+          "label": "Gross Profit",
+          "value": 420000.0,
+          "formatted_value": "$420K",
+          "currency": "USD",
+          "scale": null,
+          "period": "FY2025",
+          "yoy_change": 31.25,
+          "yoy_change_formatted": "+31.25%",
+          "yoy_change_unit": "%",
+          "source_citation": "Page 1"
+        },
+        {
+          "label": "Gross Margin",
+          "value": 35.0,
+          "formatted_value": "35.00%",
+          "currency": null,
+          "scale": null,
+          "period": "FY2025",
+          "yoy_change": 1.32,
+          "yoy_change_formatted": "+1.32 pp",
+          "yoy_change_unit": "pp",
+          "source_citation": "Derived (1)"
+        },
+        {
+          "label": "Net Income",
+          "value": 91000.0,
+          "formatted_value": "$91K",
+          "currency": "USD",
+          "scale": null,
+          "period": "FY2025",
+          "yoy_change": 16.67,
+          "yoy_change_formatted": "+16.67%",
+          "yoy_change_unit": "%",
+          "source_citation": "Page 1"
+        },
+        {
+          "label": "Operating Income",
+          "value": 160000.0,
+          "formatted_value": "$160K",
+          "currency": "USD",
+          "scale": null,
+          "period": "FY2025",
+          "yoy_change": 23.08,
+          "yoy_change_formatted": "+23.08%",
+          "yoy_change_unit": "%",
+          "source_citation": "Page 1"
+        }
+      ],
+      "summary": {
+        "revenue_performance": "Total revenue increased from $820K in FY2023 to $1.20M in FY2025 (+46.34% cumulative) with a year-over-year growth rate of +26.32% in FY2025.",
+        "profitability": "In FY2025, Gross profit reached $420K (35.00% gross margin); net income was $91K (7.58% net profit margin).",
+        "growth": "Year-over-year operational expansion: FY2024 revenue grew +15.85%; gross profit shifted +23.08%; net income shifted +20.00%; FY2025 revenue grew +26.32%; gross profit shifted +31.25%; net income shifted +16.67%.",
+        "key_observations": [
+          "Gross profit margin expanded steadily across reporting years (31.71% in FY2023 \u2192 33.68% in FY2024 \u2192 35.00% in FY2025), demonstrating improved operational unit economics.",
+          "In FY2025, revenue increased by +26.32% while net income shifted by +16.67%, indicating operational overheads expanded faster than top-line sales."
+        ],
+        "limitations": [],
+        "citations": [
+          "[Source 1] Page 1: Consolidated Income Statement"
+        ]
+      }
+    },
+    {
+      "name": "Single-Year YoY Withholding",
+      "status": "PASS",
+      "available_years": [
+        "2025"
+      ]
+    },
+    {
+      "name": "User Document Isolation (404 on Cross-Tenant)",
+      "status": "PASS",
+      "status_code": 404
+    }
+  ],
+  "overall_status": "PASS",
+  "timestamp": "2026-11-26T02:47:42Z"
+}

@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "name": "TEST 1: Gross Profit Margin FY2025",
+      "question": "Calculate the gross profit margin for Apex Global Technologies in FY2025.",
+      "expected": "35.00%",
+      "actual": "Verified table financial analysis (normalized amounts in base currency units):\nApex Global Technologies Inc., FY2025, duration, consolidated, reported: revenue = 1,200,000,000.00 USD; cost of sales = 780,000,000.00 USD [Source 1].\ngross profit margin: 420000000 / 1200000000 * 100 = 35.00% [Source 1].",
+      "status": "PASSED"
+    },
+    {
+      "name": "TEST 2: Revenue Growth FY2024 to FY2025",
+      "question": "Calculate the revenue growth from FY2024 to FY2025.",
+      "expected": "26.32%",
+      "actual": "Verified table financial analysis (normalized amounts in base currency units):\nApex Global Technologies Inc., FY2024, duration, consolidated, reported: revenue = 950,000,000.00 USD [Source 1].\nApex Global Technologies Inc., FY2025, duration, consolidated, reported: revenue = 1,200,000,000.00 USD [Source 1].\nRevenue growth FY2024 to FY2025: (1200000000 - 950000000) / 950000000 * 100 = 26.32% [Source 1].",
+      "status": "PASSED"
+    },
+    {
+      "name": "TEST 3: Unsupported Year Abstention",
+      "question": "Calculate the gross profit margin in FY2022.",
+      "expected": "Abstain / Refuse to hallucinate unsupported FY2022",
+      "actual": "I could not find sufficient evidence in the uploaded documents to answer this question.",
+      "status": "PASSED"
+    },
+    {
+      "name": "TEST 4: Negative Cash Flow Preservation",
+      "question": "What was the investing cash flow in FY2025?",
+      "expected": "-$90,000 thousand / (90,000)",
+      "actual": "Verified table financial analysis (normalized amounts in base currency units):\nApex Global Technologies Inc., FY2025, duration, consolidated, reported: investing cash flow = -90,000,000.00 USD [Source 1].",
+      "status": "PASSED"
+    },
+    {
+      "name": "TEST 5: Document and User Isolation",
+      "question": "Access document from second user context",
+      "expected": "404 Not Found / 403 Forbidden",
+      "actual": "Status 404",
+      "status": "PASSED"
+    }
+  ],
+  "overall_status": "PASSED",
+  "timestamp": "2026-11-24T09:11:56.315214+00:00"
+}

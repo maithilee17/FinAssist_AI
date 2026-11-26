@@ -1,0 +1,67 @@
+{
+  "evaluation_name": "Phase 3E Lite Real-World Financial Evaluation",
+  "timestamp": "2026-11-26T08:20:00Z",
+  "overall_status": "PASS",
+  "digital_fixtures": {
+    "three_year": {
+      "revenue_2025": "1200000",
+      "revenue_2024": "950000",
+      "gross_profit_2025": "420000",
+      "gross_profit_2024": "320000",
+      "gross_margin_2025_pct": 35.0,
+      "gross_margin_2024_pct": 33.68,
+      "margin_change_pp": 1.32,
+      "revenue_growth_pct": 26.32,
+      "status": "PASS"
+    },
+    "units": {
+      "revenue_2025_normalized": "1200000.0",
+      "table_multiplier_detected": "1000",
+      "status": "PASS"
+    },
+    "cash": {
+      "operating_cash_flow": "135000",
+      "investing_cash_flow": "-90000",
+      "financing_cash_flow": "-25000",
+      "net_change_in_cash": "20000",
+      "status": "PASS"
+    }
+  },
+  "scanned_fixtures": {
+    "scanned_income": {
+      "revenue_2025_normalized": "1200000000",
+      "cost_of_sales_normalized": "780000000",
+      "gross_profit_normalized": "420000000",
+      "gross_profit_margin_pct": 35.0,
+      "ocr_word_count": 57,
+      "status": "PASS"
+    },
+    "scanned_cash": {
+      "operating_cf_normalized": "135000000",
+      "investing_cf_normalized": "-90000000",
+      "financing_cf_normalized": "-25000000",
+      "net_cash_flow_normalized": "20000000",
+      "ocr_word_count": 29,
+      "status": "PASS"
+    }
+  },
+  "sec_filings": {
+    "coca_cola_10k": {
+      "page_verified": 64,
+      "net_operating_revenues_47061": true,
+      "gross_profit_28737": true,
+      "operating_income_9992": true,
+      "status": "PASS"
+    },
+    "nvidia_annual_report": {
+      "pages_verified": [
+        130,
+        144
+      ],
+      "revenue_130497": true,
+      "gross_profit_97858": true,
+      "operating_income_81453": true,
+      "status": "PASS"
+    }
+  }
+}
